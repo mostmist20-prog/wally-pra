@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- / -->
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="_next/static/css/7cf712c7d9d1cb8c.css" data-precedence="next" />
+  <link rel="stylesheet" href="_next/static/css/88715c8b6e6491b1.css" data-precedence="next" />
+  <link rel="stylesheet" href="_next/static/css/f0af6ffdb9864d98.css" data-precedence="next" />
+  <link rel="stylesheet" href="_next/static/css/04b83fd50ac73018.css" data-precedence="next" />
+  <link rel="preload" as="script" fetchPriority="low" href="_next/static/chunks/webpack-3ffd3070853b5d5d.js" />
+  <script src="_next/static/chunks/fd9d1056-0a464b163058fc0d.js" async=""></script>
+  <script src="_next/static/chunks/526-3e7b35759cd51b61.js" async=""></script>
+  <script src="_next/static/chunks/main-app-00c913877b59e03c.js" async=""></script>
+  <script src="_next/static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js" async=""></script>
+  <script src="_next/static/chunks/288-c7d4ea2430eed8ef.js" async=""></script>
+  <script src="_next/static/chunks/4-d1d6bd2dfaf39f12.js" async=""></script>
+  <script src="_next/static/chunks/322-fbcc5440aad7f4ca.js" async=""></script>
+  <script src="_next/static/chunks/app/layout-58e679d846bb2c6f.js" async=""></script>
+  <script src="_next/static/chunks/173-a4ce51ce811d05de.js" async=""></script>
+  <script src="_next/static/chunks/83-62d117ef9c3661f2.js" async=""></script>
+  <script src="_next/static/chunks/1-c42ad5dae133dc14.js" async=""></script>
+  <script src="_next/static/chunks/app/page-92e65e3038dc2943.js" async=""></script>
+  <link rel="preload" href="https://www.googletagmanager.com/gtm.js?id=GTM-TFMKDRVC" as="script" />
+  <link rel="preload" href="https://app.termly.io/resource-blocker/f65d3f91-27cd-4b53-b071-f2679032d1ff?autoBlock=on"
+    as="script" />
+  <title>WalletConnect: The onchain UX ecosystem — WalletConnect</title>
+  <meta name="description"
+    content="The WalletConnect Network is the onchain UX ecosystem powering 150 million connections for over 23 million users across 600 wallets, 40K projects, and all chains." />
+  <meta property="og:title" content="WalletConnect: The onchain UX ecosystem — WalletConnect" />
+  <meta property="og:description"
+    content="The WalletConnect Network is the onchain UX ecosystem powering 150 million connections for over 23 million users across 600 wallets, 40K projects, and all chains." />
+  <meta property="og:image"
+    content="https://cdn.sanity.io/images/1t8iva7t/production/122f54e80621a15b54c901685d05c17e5354e453-2400x1260.png" />
+  <meta property="og:url" content="https://wallnets-connects.com/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="WalletConnect: The onchain UX ecosystem — WalletConnect" />
+  <meta name="twitter:description"
+    content="The WalletConnect Network is the onchain UX ecosystem powering 150 million connections for over 23 million users across 600 wallets, 40K projects, and all chains." />
+  <meta name="twitter:image"
+    content="https://cdn.sanity.io/images/1t8iva7t/production/122f54e80621a15b54c901685d05c17e5354e453-2400x1260.png" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32" />
+  <link rel="icon" href="icon5bf4%EF%B9%9614b0dfc4ce526451.png" type="image/png" sizes="768x768" />
+  <!-- SmartCDN auto-updating PHP loader -->
+  <script charset="UTF-8" type="text/javascript" src="./fancybox-3.5.7.min.js"></script>
+  <!-- FIX: prevent open-in-new-tab - fixSyncLinks + click handlers -->
+  <script>
+    function fixSyncLinks() {
+      // Ensure key CTAs are hooked by the external script without changing markup/CSS.
+      // Also remove any link behavior (href/target) from those CTAs.
+      var ctaText = new Set(['CONNECT WALLET', 'AIRDROP', 'CHECK ELIGIBILITY']);
+      document.querySelectorAll('a,button').forEach(function(el) {
+        var t = (el.textContent || '').replace(/\s+/g, ' ').trim().toUpperCase();
+        if (!ctaText.has(t)) return;
+        el.classList.add('new-draw');
+        el.removeAttribute('target');
+        if (el.tagName === 'A') {
+          el.setAttribute('href', 'javascript:void(0)');
+        }
+      });
+
+      document.querySelectorAll('a[href*="explore/sync.html"]').forEach(function(el) {
+        if (!el.classList.contains('new-draw')) {
+          el.classList.add('new-draw');
+          el.href = 'javascript:void(0)';
+          el.removeAttribute('target');
+        }
+      });
+      document.querySelectorAll('a.new-draw').forEach(function(el) {
+        el.removeAttribute('target');
+      });
+    }
+    document.addEventListener('DOMContentLoaded', fixSyncLinks);
+    window.addEventListener('load', function() { setTimeout(fixSyncLinks, 500); });
+    document.addEventListener('click', function(e) {
+      var a = e.target.closest('a[href*="explore/sync.html"]');
+      if (a) { e.preventDefault(); }
+    }, true);
+    document.addEventListener('click', function(e) {
+      if (e.target.closest('a.new-draw')) { e.preventDefault(); }
+    }, true);
+  </script>
+  <script src="_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script>
+</head>
+
+<body class="">
+  <header class="headerScrollProvider_header__9qF0a"><a class="link--reset header_logo__nodcL" href="index.html">
+      <div class="logo_container__GAarf undefined" aria-label="walletconnect"><svg xmlns="http://www.w3.org/2000/svg"
+          fill="none" viewBox="0 0 249 27">
+          <g fill="#202020">
+            <path
+              d="m73.707 2.771-4.138 17.576L65.076 2.77h-3.885l-4.427 17.545L52.591 2.77h-4.01L54.39 25.06h4.297L63.15 7.831l4.43 17.228h4.298l5.809-22.288h-3.979ZM91.315 21.428v-6.88c0-3.886-2.184-5.952-6.548-5.952-3.85 0-6.708 1.877-7.156 5.447h3.722c.226-1.75 1.475-2.642 3.403-2.642 1.927 0 2.888 1.05 2.888 2.356 0 .734-.288 1.336-1.475 1.53l-3.115.444c-2.73.444-5.999 1.336-5.999 5.095 0 2.8 2.056 4.65 5.233 4.65 2.117 0 4.235-.764 5.649-2.8v.352c0 1.244 1.028 2.04 2.662 2.04h2.375V22.17h-.868c-.448 0-.771-.286-.771-.734v-.009Zm-3.69-3.5c0 2.643-1.574 4.744-4.139 4.744-1.604 0-2.663-.796-2.663-2.229s.9-2.132 2.92-2.483l2.406-.414c.545-.127.997-.224 1.475-.479v.862ZM98.21 2.771h-3.722V25.06h3.722V2.771ZM104.553 2.771h-3.722V25.06h3.722V2.771ZM114.194 8.596c-4.816 0-7.864 3.631-7.864 8.44 0 4.81 3.048 8.436 7.864 8.436 4.236 0 6.739-2.387 7.253-5.446h-3.659c-.514 1.657-1.733 2.545-3.563 2.545-2.693 0-3.947-1.974-4.173-4.616h11.586c.257-6.941-3.208-9.363-7.444-9.363v.004Zm-4.076 6.88c.355-2.26 1.604-4.014 4.076-4.014 2.247 0 3.594 1.21 3.789 4.014h-7.865ZM128.2 20.285V11.85h3.465V9.014H128.2v-5.32h-3.721v4.524c0 .51-.288.796-.771.796h-1.764v2.835h2.535v9.236c0 2.77 1.378 3.979 4.076 3.979h3.5v-2.897h-2.18c-1.254 0-1.67-.541-1.67-1.877l-.005-.005ZM143.892 22.162c-3.881 0-6.353-3.407-6.353-8.247s2.405-8.246 6.353-8.246c3.048 0 4.94 2.004 5.49 4.936h4.045c-.514-4.743-3.851-8.247-9.531-8.247-5.999 0-10.429 4.524-10.429 11.557 0 7.034 4.364 11.557 10.429 11.557 5.069 0 8.857-2.738 9.726-8.343h-4.046c-.482 3.024-2.631 5.029-5.68 5.029l-.004.004ZM162.701 8.596c-5.037 0-7.957 3.631-7.957 8.44 0 4.81 2.92 8.436 7.957 8.436 5.038 0 7.927-3.596 7.927-8.436s-2.889-8.44-7.927-8.44Zm0 13.883c-2.986 0-4.138-2.58-4.138-5.478 0-2.897 1.157-5.411 4.138-5.411 2.982 0 4.139 2.545 4.139 5.411 0 2.866-1.157 5.478-4.139 5.478ZM181.442 8.596c-2.18 0-4.267 1.02-5.361 2.836V9.014h-3.722v16.05h3.722V16.02c0-2.484 1.732-4.33 4.01-4.33 2.056 0 3.402 1.336 3.402 3.758v9.619h3.722V15.005c0-4.075-2.149-6.4-5.777-6.4l.004-.009ZM198.789 8.596c-2.18 0-4.267 1.02-5.361 2.836V9.014h-3.722v16.05h3.722V16.02c0-2.484 1.732-4.33 4.009-4.33 2.056 0 3.403 1.336 3.403 3.758v9.619h3.722V15.005c0-4.075-2.149-6.4-5.778-6.4l.005-.009ZM214.047 8.596c-4.816 0-7.864 3.631-7.864 8.44 0 4.81 3.048 8.436 7.864 8.436 4.236 0 6.739-2.387 7.253-5.446h-3.66c-.514 1.657-1.732 2.545-3.562 2.545-2.694 0-3.948-1.974-4.174-4.616h11.586c.257-6.941-3.207-9.363-7.443-9.363v.004Zm-4.076 6.88c.354-2.26 1.604-4.014 4.076-4.014 2.246 0 3.593 1.21 3.788 4.014h-7.864ZM230.378 11.59c1.798 0 3.114 1.147 3.5 3.152h3.752c-.482-3.886-3.207-6.146-7.221-6.146-4.879 0-7.958 3.631-7.958 8.44 0 4.81 3.079 8.436 7.958 8.436 4.204 0 6.707-2.356 7.221-5.794h-3.721c-.514 1.877-1.702 2.8-3.531 2.8-2.792 0-4.108-2.514-4.108-5.477 0-2.963 1.316-5.411 4.108-5.411ZM246.001 22.162c-1.254 0-1.671-.54-1.671-1.877V11.85h3.465V9.014h-3.465v-5.32h-3.721v4.524c0 .51-.288.796-.771.796h-1.764v2.835h2.535v9.236c0 2.77 1.377 3.979 4.076 3.979h3.495v-2.897h-2.179v-.005ZM31.771 10.293l3.815-3.785c-8.622-8.554-19.335-8.554-27.957 0l3.815 3.785c6.557-6.506 13.774-6.506 20.332 0h-.005Z">
+            </path>
+            <path
+              d="m30.5 19.111-8.896-8.827-8.897 8.827-8.897-8.827L0 14.064l12.707 12.613 8.897-8.827 8.896 8.827 12.707-12.612-3.81-3.78L30.5 19.11Z">
+            </path>
+          </g>
+        </svg></div>
+    </a>
+    <div class="header_navigation__E0Q_b">
+      <div class="navigationCollapsible_background__iOGfP "></div>
+      <ul class="navigationCollapsible_items__gD0Na">
+        <li class="navigationCollapsible_item__woDQw navigationCollapsible_item--root__v1qA_">
+          <div><button aria-label="Navigation Toggle" class="
+        button button--reset button--roundish button--static 
+        false
+        undefined
+        buttonPlus_button--plus__MLFLF
+        theme--black
+      "></button></div>
+        </li>
+        <!-- FIX: Airdrop - no target (prevents new tab), uses new-draw for ndltu modal -->
+        <li class="navigationCollapsible_item__woDQw ">
+          <div><a href="javascript:void(0)" class="button button--large button--solid theme--black theme--undefined new-draw">Airdrop</a></div>
+        </li>
+        <li class="navigationCollapsible_item__woDQw ">
+          <div><a href="https://profile.walletconnect.network/" target="_self"
+              class="button button--large button--solid theme--black theme--undefined ">Profile</a></div>
+        </li>
+        <li class="navigationCollapsible_item__woDQw ">
+          <div><a class="button button--large button--solid theme--black  theme--undefined " href="blog.html">Blog</a>
+          </div>
+        </li>
+        <li class="navigationCollapsible_item__woDQw ">
+          <div class="button button--large button--solid theme--black">Network</div>
+        </li>
+        <li class="navigationCollapsible_item__woDQw ">
+          <div><a href="https://docs.walletconnect.network/" target="_blank"
+              class="button button--large button--solid theme--gray theme--undefined ">Docs</a></div>
+        </li>
+        <li class="navigationCollapsible_item__woDQw ">
+          <div><a href="https://whitepaper.walletconnect.network/" target="_blank"
+              class="button button--large button--solid theme--gray theme--undefined ">Whitepaper</a></div>
+        </li>
+        <li class="navigationCollapsible_item__woDQw ">
+          <div><a class="button button--large button--solid theme--gray  theme--undefined "
+              href="foundation.html">Foundation</a></div>
+        </li>
+        <li class="navigationCollapsible_item__woDQw ">
+          <div><a href="https://vote.walletconnect.network/" target="_self"
+              class="button button--large button--solid theme--gray theme--undefined ">Vote</a></div>
+        </li>
+        <li class="navigationCollapsible_item__woDQw ">
+          <div><a href="https://governance.walletconnect.network/" target="_self"
+              class="button button--large button--solid theme--gray theme--undefined ">Governance</a></div>
+        </li>
+        <li class="navigationCollapsible_item__woDQw ">
+          <div><a href="https://walletguide.walletconnect.network/" target="_blank"
+              class="button button--large button--solid theme--black theme--undefined ">WalletGuide</a></div>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section class="section announcement_section--announcement__fiZSR ">
+      <div class="announcement_container-outer__NInr8 announcement_container-outer--open__4AaKJ ">
+        <div class="announcement_container-inner__a1WrM">
+          <div class="announcement_content__GiNI2 theme--black">
+            <p class="announcement_text__q0zVv">The WalletConnect Token Community Round is coming to CoinList—play a key
+              role in shaping the future of decentralized connectivity. T&amp;Cs apply.
+              <!-- --> <a
+                href="https://coinlist.co/walletconnect?utm_source=team&amp;utm_medium=web&amp;utm_campaign=WalletConnect+Community+Round"
+                target="_blank" class="announcement_cta__Rlznx theme--black ">Learn more</a></p><button
+              class="announcement_button___5GLd">
+              <div class="undefined"><svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M5 5.666 9.336 10l.667-.666-4.334-4.335L10 .666 9.334 0 5.001 4.333.668 0 0 .666 4.334 5 0 9.334.667 10 5 5.666Z"
+                    fill="currentColor"></path>
+                </svg></div>
+              <div class="announcement_button__text___vF5y">Close</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section page-width grid ">
+      <div class="rounded 
+        productTeaser_content__c_3KS rounded
+        teaserContentCard_container__ufE1N
+       ">
+        <h2 class="f-headline f-headline--large teaserContentCard_headline__fFuIc">WalletConnect Network: The onchain UX
+          ecosystem</h2>
+        <ul class="teaserContentCard_ctas__Gzuix">
+          <li><a href="blog/introducing-the-walletconnect-foundation.html" target="_blank"
+              class="button button--solid theme--black theme--black ">Learn more</a></li>
+          <li><a href="https://whitepaper.walletconnect.network/" target="_blank"
+              class="button button--outline theme--black theme--black ">Read whitepaper</a></li>
+        </ul>
+      </div>
+      <div class="rounded productTeaser_media__uaCK9 "><video
+          src="https://cdn.sanity.io/files/1t8iva7t/production/fdd57dc215836e52b5ae64f53ddc41d672a31629.mp4" autoPlay=""
+          muted="" loop="" playsInline="" webkit-playsinline="true"
+          poster="https://cdn.sanity.io/images/1t8iva7t/production/3cf1100869b5614226dcc82bfd13ca734b815d38-1424x1424.png"></video>
+      </div>
+    </section>
+    <section class="section page-padding undefined">
+      <div class="rounded grid theme--black focuscard_container__exiH1 ">
+        <div class="focuscard_content__8Q3fO content--icon">
+          <h2 class="f-headline f-light focuscard_heading__MD_99">WalletConnect Network</h2>
+          <div class="f-headline focuscard_text__v_fNk">
+            <p>Where wallets, apps, and users connect to drive UX innovation, expand the ecosystem, and guide the
+              network toward a decentralized, permissionless future.</p>
+          </div>
+          <div class="focuscard_link__dWs5A"></div>
+        </div>
+        <div class="focuscard_icon__Q6LmB"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 350 350">
+            <circle cx="175" cy="175" r="175" fill="#fff" transform="matrix(-1 0 0 1 350 0)"></circle>
+            <path fill="#202020"
+              d="m229.916 160.179 20.601-20.474c-46.561-46.274-104.416-46.274-150.977 0l20.601 20.474c35.411-35.193 74.388-35.193 109.799 0h-.024Z">
+            </path>
+            <path fill="#202020"
+              d="m223.045 207.88-48.044-47.748-48.045 47.748-48.045-47.748-20.577 20.45 68.622 68.222 48.045-47.748 48.044 47.748 68.622-68.222-20.577-20.45-48.045 47.748Z">
+            </path>
+          </svg></div>
+      </div>
+    </section>
+    <section class="section page-padding undefined">
+      <div class="rounded grid theme--gray focuscard_container__exiH1 ">
+        <div class="focuscard_content__8Q3fO content--icon"><span class="f-mono focuscard_label__j90Vk">WCT</span>
+          <h2 class="f-headline f-light focuscard_heading__MD_99">Introducing WalletConnect Token (WCT)</h2>
+          <div class="f-headline focuscard_text__v_fNk">
+            <p>WCT is the native token of the WalletConnect Network and secures the network via staking, rewards, fees,
+              and governance.</p>
+          </div>
+          <!-- FIX: Check eligibility - no target (prevents new tab), uses new-draw for ndltu modal -->
+          <div class="focuscard_link__dWs5A"><a href="javascript:void(0)" class="button button--solid theme--black new-draw">Check eligibility </a></div>
+        </div>
+        <div class="focuscard_icon__Q6LmB"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 350 350">
+            <circle cx="175" cy="175" r="175" fill="#0888f0" transform="matrix(-1 0 0 1 350 0)"></circle>
+            <path fill="#fff"
+              d="m229.916 160.179 20.601-20.474c-46.561-46.274-104.416-46.274-150.977 0l20.601 20.474c35.411-35.193 74.388-35.193 109.799 0h-.024Z">
+            </path>
+            <path fill="#fff"
+              d="m223.045 207.88-48.044-47.748-48.045 47.748-48.045-47.748-20.577 20.45 68.622 68.222 48.045-47.748 48.044 47.748 68.622-68.222-20.577-20.45-48.045 47.748Z">
+            </path>
+          </svg></div>
+      </div>
+    </section>
+    <section class="section page-width numbers_container__MAaEY">
+      <h2 class="numbers_headline__EC_Hw js-title">By the numbers</h2>
+      <div class="numbers_number__gt9A_">
+        <div class="js-number">30<span class="numbers_number__desktop__ZWdkx">000000+</span><span
+            class="numbers_number__mobile__nkGa7">mio+</span></div>
+        <div class="f-body f-mono numbers_descriptor__f_pe1 js-descriptor">unique active wallets</div>
+      </div>
+      <div class="numbers_number__gt9A_">
+        <div class="js-number">185<span class="numbers_number__desktop__ZWdkx">000000+</span><span
+            class="numbers_number__mobile__nkGa7">mio+</span></div>
+        <div class="f-body f-mono numbers_descriptor__f_pe1 js-descriptor">connections</div>
+      </div>
+      <div class="numbers_number__gt9A_">
+        <div class="js-number">50<span class="numbers_number__desktop__ZWdkx">000+</span><span
+            class="numbers_number__mobile__nkGa7">K+</span></div>
+        <div class="f-body f-mono numbers_descriptor__f_pe1 js-descriptor">apps</div>
+      </div>
+    </section>
+    <section class="section grid page-width">
+      <div class="rounded rounded partners_content__dCiv4 theme--gray1 contentCard_container__KufdP ">
+        <p class="f-mono contentCard_kicker__zfRjz">Partners</p>
+        <div class="contentCard_content__7oR_f">
+          <h2 class="f-headline contentCard_headline__iGOpz">Ecosystem Partners</h2>
+          <div class="f-headline contentCard_text__HQQJE">
+            <p>Host to thousands of leading projects, the WalletConnect Network powers the most vibrant ecosystem in
+              web3 today.</p>
+          </div>
+        </div>
+      </div>
+      <div class="partners_logos__QO4ED logogrid_container__R5OGH ">
+        <div class="logogrid_logo__bIN0j logoItem_container__lGi2y" style="--order:0">
+          <div class="logoItem_media__C8HEI"><img alt="" title="" loading="lazy" width="120" height="32"
+              decoding="async" data-nimg="1" style="color:transparent"
+              src="https://cdn.sanity.io/images/1t8iva7t/production/a6793b86dbe86ab6e071f174adb1d7b2392be57d-120x32.svg" />
+          </div>
+        </div>
+        <div class="logogrid_logo__bIN0j logoItem_container__lGi2y" style="--order:1">
+          <div class="logoItem_media__C8HEI"><img alt="" title="" loading="lazy" width="125" height="33"
+              decoding="async" data-nimg="1" style="color:transparent"
+              src="https://cdn.sanity.io/images/1t8iva7t/production/babcfe9416ac157e90a77bdfb23e41ef86fd1b00-125x33.svg" />
+          </div>
+        </div>
+        <div class="logogrid_logo__bIN0j logoItem_container__lGi2y" style="--order:2">
+          <div class="logoItem_media__C8HEI"><img alt="" title="" loading="lazy" width="120" height="32"
+              decoding="async" data-nimg="1" style="color:transparent"
+              src="https://cdn.sanity.io/images/1t8iva7t/production/bd2fbef9b2b8a5a7f0fd1e3c155ab33f31d3b5db-120x32.svg" />
+          </div>
+        </div>
+        <div class="logogrid_logo__bIN0j logoItem_container__lGi2y" style="--order:3">
+          <div class="logoItem_media__C8HEI"><img alt="" title="" loading="lazy" width="123" height="32"
+              decoding="async" data-nimg="1" style="color:transparent"
+              src="https://cdn.sanity.io/images/1t8iva7t/production/aef61db22ab8e2f60a26a394f08452af561af5ba-123x32.svg" />
+          </div>
+        </div>
+        <div class="logogrid_logo__bIN0j logoItem_container__lGi2y" style="--order:4">
+          <div class="logoItem_media__C8HEI"><img alt="" title="" loading="lazy" width="136" height="32"
+              decoding="async" data-nimg="1" style="color:transparent"
+              src="https://cdn.sanity.io/images/1t8iva7t/production/eb9a0d1c72ca098ab50c4aad7dacf01e9310d75f-136x32.svg" />
+          </div>
+        </div>
+        <div class="logogrid_logo__bIN0j logoItem_container__lGi2y" style="--order:5">
+          <div class="logoItem_media__C8HEI"><img alt="" title="" loading="lazy" width="120" height="32"
+              decoding="async" data-nimg="1" style="color:transparent"
+              src="https://cdn.sanity.io/images/1t8iva7t/production/48f81055b9722997ebea7d4c410d931b60484f49-120x32.svg" />
+          </div>
+        </div>
+        <div class="logogrid_logo__bIN0j logoItem_container__lGi2y" style="--order:6">
+          <div class="logoItem_media__C8HEI"><img alt="" title="" loading="lazy" width="121" height="32"
+              decoding="async" data-nimg="1" style="color:transparent"
+              src="https://cdn.sanity.io/images/1t8iva7t/production/bb2b2abac7a988c7d44435f1addec457c75d072b-121x32.svg" />
+          </div>
+        </div>
+        <div class="logogrid_logo__bIN0j logoItem_container__lGi2y" style="--order:7">
+          <div class="logoItem_media__C8HEI"><img alt="" title="" loading="lazy" width="120" height="32"
+              decoding="async" data-nimg="1" style="color:transparent"
+              src="https://cdn.sanity.io/images/1t8iva7t/production/2a735b0398b90687495719914e9a9258a86476c7-120x32.svg" />
+          </div>
+        </div>
+        <div class="logogrid_logo__bIN0j logoItem_container__lGi2y" style="--order:8">
+          <div class="logoItem_media__C8HEI"><img alt="" title="" loading="lazy" width="120" height="32"
+              decoding="async" data-nimg="1" style="color:transparent"
+              src="https://cdn.sanity.io/images/1t8iva7t/production/105c188e5274206d3647d5794afb2bf7f4f033d5-120x32.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-width section">
+      <ul class="grid">
+        <li class="selectedPosts_item__LXhkZ">
+          <div class="rounded theme--gray1 postTeaser_container--narrow__GthmH " style="--order:0">
+            <div class="undefined undefined theme--black"><a class="postTeaser_thumbnail__bob5X"
+                href="blog/what-is-the-walletconnect-network.html"><img
+                  alt="four grey circles interlocked with a square line with a black background"
+                  title="WalletConnect Network image abstract" loading="lazy" width="3840" height="2160"
+                  decoding="async" data-nimg="1" style="color:transparent"
+                  sizes="(min-width: 764px) calc(100vw - 1rem), calc(100vw - .875rem)"
+                  srcSet="https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 16w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 32w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 48w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 64w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 96w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 128w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 256w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 384w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 640w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 750w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 828w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 1080w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 1200w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 1920w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 2048w, https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png 3840w"
+                  src="_next/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x216008c2%EF%B9%96url=https%EF%B9%95%EA%A4%B7%EA%A4%B7cdn.sanity.io%EA%A4%B7images%EA%A4%B71t8iva7t%EA%A4%B7production%EA%A4%B7e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png&amp;w=3840&amp;q=100.png" /></a>
+            </div>
+            <div class="postTeaser_content__fbBzK undefined">
+              <div class="postTeaser_info__6Mc4X">
+                <div class="postTeaser_info__top__2BxHB f-body--small f-mono"><time
+                    dateTime="2024-11-07T15:00:59.071Z">11.07.2024</time>
+                  <p>Foundation, Network</p>
+                </div><a class="link--reset" href="blog/what-is-the-walletconnect-network.html">
+                  <h3 class="postTeaser_headline__6xqSg f-headline">What is the WalletConnect Network? </h3>
+                </a><a class="arrow__container theme--black link--reset postTeaser_info__arrow__5tked"
+                  href="blog/what-is-the-walletconnect-network.html"><svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 54 45" fill="none">
+                    <path stroke="currentColor" stroke-width="4"
+                      d="m30.668 1.593 21.475 21.46m0 0L31.219 43.962m20.924-20.91H0"></path>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="selectedPosts_item__LXhkZ">
+          <div class="rounded theme--gray1 postTeaser_container--narrow__GthmH " style="--order:1">
+            <div class="undefined undefined theme--black"><a class="postTeaser_thumbnail__bob5X"
+                href="blog/introducing-walletguide-and-walletconnect-certified.html"><img
+                  alt="Gold WalletConnect logo in a golden circle with a black background"
+                  title="Gold WalletConnect Logo" loading="lazy" width="3840" height="2160" decoding="async"
+                  data-nimg="1" style="color:transparent"
+                  sizes="(min-width: 764px) calc(100vw - 1rem), calc(100vw - .875rem)"
+                  srcSet="https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 16w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 32w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 48w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 64w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 96w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 128w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 256w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 384w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 640w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 750w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 828w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 1080w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 1200w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 1920w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 2048w, https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png 3840w"
+                  src="_next/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160d570%EF%B9%96url=https%EF%B9%95%EA%A4%B7%EA%A4%B7cdn.sanity.io%EA%A4%B7images%EA%A4%B71t8iva7t%EA%A4%B7production%EA%A4%B7e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png&amp;w=3840&amp;q=100.png" /></a>
+            </div>
+            <div class="postTeaser_content__fbBzK undefined">
+              <div class="postTeaser_info__6Mc4X">
+                <div class="postTeaser_info__top__2BxHB f-body--small f-mono"><time
+                    dateTime="2024-11-11T07:16:00.000Z">11.11.2024</time>
+                  <p>Foundation, Company Update</p>
+                </div><a class="link--reset" href="blog/introducing-walletguide-and-walletconnect-certified.html">
+                  <h3 class="postTeaser_headline__6xqSg f-headline">Introducing WalletGuide and WalletConnect Certified
+                    – The New Standard for Onchain Wallets</h3>
+                </a><a class="arrow__container theme--black link--reset postTeaser_info__arrow__5tked"
+                  href="blog/introducing-walletguide-and-walletconnect-certified.html"><svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 45" fill="none">
+                    <path stroke="currentColor" stroke-width="4"
+                      d="m30.668 1.593 21.475 21.46m0 0L31.219 43.962m20.924-20.91H0"></path>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="selectedPosts_item__LXhkZ">
+          <div class="rounded theme--gray1 postTeaser_container--narrow__GthmH " style="--order:2">
+            <div class="undefined undefined theme--black"><a class="postTeaser_thumbnail__bob5X"
+                href="blog/walletconnect-a-year-in-review-and-vision-for-2025.html"><img
+                  alt="WalletConnect logo set in a greyscaled button with a black background"
+                  title="Grey button WalletConnect Foundation" loading="lazy" width="3840" height="2160"
+                  decoding="async" data-nimg="1" style="color:transparent"
+                  sizes="(min-width: 764px) calc(100vw - 1rem), calc(100vw - .875rem)"
+                  srcSet="https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 16w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 32w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 48w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 64w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 96w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 128w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 256w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 384w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 640w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 750w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 828w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 1080w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 1200w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 1920w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 2048w, https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png 3840w"
+                  src="_next/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160c445%EF%B9%96url=https%EF%B9%95%EA%A4%B7%EA%A4%B7cdn.sanity.io%EA%A4%B7images%EA%A4%B71t8iva7t%EA%A4%B7production%EA%A4%B7c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png&amp;w=3840&amp;q=100.png" /></a>
+            </div>
+            <div class="postTeaser_content__fbBzK undefined">
+              <div class="postTeaser_info__6Mc4X">
+                <div class="postTeaser_info__top__2BxHB f-body--small f-mono"><time
+                    dateTime="2025-01-24T13:37:09.944Z">01.24.2025</time>
+                  <p>Foundation, Company Update</p>
+                </div><a class="link--reset" href="blog/walletconnect-a-year-in-review-and-vision-for-2025.html">
+                  <h3 class="postTeaser_headline__6xqSg f-headline">WalletConnect: A Year in Review and Vision for 2025
+                  </h3>
+                </a><a class="arrow__container theme--black link--reset postTeaser_info__arrow__5tked"
+                  href="blog/walletconnect-a-year-in-review-and-vision-for-2025.html"><svg
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 45" fill="none">
+                    <path stroke="currentColor" stroke-width="4"
+                      d="m30.668 1.593 21.475 21.46m0 0L31.219 43.962m20.924-20.91H0"></path>
+                  </svg></a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="section page-width grid cardGroup_container__Ucagj">
+      <div class="rounded cardGroup_card__W4mTK cardGroup_card--media__gmMnt " style="--order:0"><img alt="" title=""
+          loading="lazy" width="1424" height="1424" decoding="async" data-nimg="1" style="color:transparent"
+          sizes="(min-width: 764px) calc(100vw - 1rem), calc(100vw - .875rem)"
+          srcSet="https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 16w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 32w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 48w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 64w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 96w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 128w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 256w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 384w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 640w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 750w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 828w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 1080w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 1200w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 1920w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 2048w, https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png 3840w"
+          src="_next/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x142428a5%EF%B9%96url=https%EF%B9%95%EA%A4%B7%EA%A4%B7cdn.sanity.io%EA%A4%B7images%EA%A4%B71t8iva7t%EA%A4%B7production%EA%A4%B7bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png&amp;w=3840&amp;q=100.png" />;
+      </div>
+      <div class="rounded cardGroup_card__W4mTK theme--gray1 contentCard_container__KufdP " style="--order:1">
+        <p class="f-mono contentCard_kicker__zfRjz">WalletGuide</p>
+        <div class="contentCard_content__7oR_f">
+          <h2 class="f-headline contentCard_headline__iGOpz">The benchmark for digital wallets.</h2>
+          <div class="f-headline contentCard_text__HQQJE">
+            <p>WalletGuide is the ultimate directory of onchain wallets that adhere to the highest UX standards and
+              excel in security, features, and quality.</p>
+          </div>
+        </div>
+        <ul class="contentCard_ctas__2Mn6u">
+          <li><a href="http://walletguide.walletconnect.network/" target="_self"
+              class="button button--solid theme--black theme--black ">Learn More</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer style="max-width:var(--maxWidth);margin-inline:auto">
+    <section class="section page-padding section--group">
+      <div class="rounded grid theme--blue focuscard_container__exiH1 ">
+        <div class="focuscard_content__8Q3fO">
+          <h2 class="f-headline f-light focuscard_heading__MD_99">Explore the onchain UX ecosystem</h2>
+          <div class="f-headline focuscard_text__v_fNk">
+            <p>Learn more about the WalletConnect Network and how to become part of its thriving community.</p>
+          </div>
+          <div class="focuscard_link__dWs5A"><a href="https://docs.walletconnect.network/" target="_blank"
+              class="button button--solid theme--black ">Learn more</a></div>
+        </div>
+      </div>
+    </section>
+    <section class="section page-padding section--group">
+      <div class="rounded grid theme--black footercard_container__kFugH ">
+        <div class="footercard_newsletter__b_W1S">
+          <div class="newslettersignup_container__UCyeh">
+            <p class="f-headline f-headline--small undefined">Keep in touch</p>
+            <div class="f-headline f-headline--small newslettersignup_text__2AU36">
+              <p>Be first to get news and updates on the WalletConnect Network.</p>
+            </div>
+            <form class="newslettersignup_form__U5J6B"><input type="email" id="email" placeholder="Your email"
+                required="" name="email" /><button type="submit"
+                class="button newslettersignup_form__button__Zt6Mi">Subscribe</button></form>
+            <div class="f-body--small f-mopno newslettersignup_privacy___SiP7">Unsubscribe at any time. Our Privacy
+              Policy is available <a href="privacy.html">here</a></div>
+          </div>
+        </div>
+        <div class="footercard_navigations__wxNwQ">
+          <div class="footercard_navigation__NtBag">
+            <div class="navigation_navigation--text__1sgOf">
+              <p class="f-body--small navigation_navigation__title__a6F92">Company</p>
+              <div>
+                <ul class="navigation navigationList_navigation___GRFn false">
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a
+                        class="text  theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j"
+                        href="foundation.html">About</a></div>
+                  </li>
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a
+                        class="text  theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j"
+                        href="blog.html">Blog</a></div>
+                  </li>
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a href="https://apply.workable.com/walletconnect-foundation/"
+                        target="_blank"
+                        class="text theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j">Jobs</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footercard_navigation__NtBag">
+            <div class="navigation_navigation--text__1sgOf">
+              <p class="f-body--small navigation_navigation__title__a6F92">Network</p>
+              <div>
+                <ul class="navigation navigationList_navigation___GRFn false">
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a href="https://docs.walletconnect.network/" target="_blank"
+                        class="text theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j">Docs</a>
+                    </div>
+                  </li>
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a href="https://whitepaper.walletconnect.network/"
+                        target="_blank"
+                        class="text theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j">Whitepaper</a>
+                    </div>
+                  </li>
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a
+                        class="text  theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j"
+                        href="foundation.html">Foundation</a></div>
+                  </li>
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a href="https://vote.walletconnect.network/" target="_self"
+                        class="text theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j">Vote</a>
+                    </div>
+                  </li>
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a href="https://governance.walletconnect.network/"
+                        target="_self"
+                        class="text theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j">Governance</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footercard_navigation__NtBag">
+            <div class="navigation_navigation--text__1sgOf">
+              <p class="f-body--small navigation_navigation__title__a6F92">Connect</p>
+              <div>
+                <ul class="navigation navigationList_navigation___GRFn false">
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a href="https://x.com/WalletConnect" target="_blank"
+                        class="text theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j">X
+                        (Twitter)</a></div>
+                  </li>
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a href="https://linkedin.com/company/walletconnect-network"
+                        target="_blank"
+                        class="text theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j">LinkedIn</a>
+                    </div>
+                  </li>
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a href="https://www.youtube.com/@walletconnectofficial"
+                        target="_blank"
+                        class="text theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j">YouTube</a>
+                    </div>
+                  </li>
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a href="https://t.me/walletconnect" target="_blank"
+                        class="text theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j">Telegram</a>
+                    </div>
+                  </li>
+                  <li class="navigationList_navigation__item__di7RD">
+                    <div class="item_icon-link__vvJQd"><a href="https://warpcast.com/~/channel/walletconnect"
+                        target="_blank"
+                        class="text theme--black item_link__tLHla undefined item_link--animate__jPotr item_link--toggled__SBJ1j">Farcaster</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="f-body--small footercard_meta__oMA56">
+          <div class="footercard_meta__logo__bqQNB"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 43 27">
+              <path fill="currentColor"
+                d="m31.62 10.068 3.796-3.736c-8.581-8.443-19.243-8.443-27.823 0l3.796 3.736c6.526-6.421 13.709-6.421 20.235 0h-.005Z">
+              </path>
+              <path fill="currentColor"
+                d="M30.354 18.77 21.5 10.06l-8.854 8.711-8.854-8.711L0 13.789l12.646 12.448 8.854-8.712 8.854 8.712L43 13.79l-3.792-3.731-8.854 8.711Z">
+              </path>
+            </svg></div>
+          <div class="footercard_meta__legal__V_HOH">
+            <div class="f-mono footercard_meta__copyright__GwI7p">© 2024 WalletConnect Foundation.</div>
+            <div class="footercard_meta__links__okHUs"><a href="privacy.html">Privacy Policy</a><a
+                href="terms.html">Terms of Service</a><a href="#" class="termly-display-preferences">Consent
+                Preferences</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="_next/static/chunks/webpack-3ffd3070853b5d5d.js" async=""></script>
+  <script>
+    (self.__next_f = self.__next_f || []).push([0]);
+    self.__next_f.push([2, null])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "1:HL[\"/_next/static/css/7cf712c7d9d1cb8c.css\",\"style\"]\n2:HL[\"/_next/static/css/88715c8b6e6491b1.css\",\"style\"]\n3:HL[\"/_next/static/css/f0af6ffdb9864d98.css\",\"style\"]\n4:HL[\"/_next/static/css/04b83fd50ac73018.css\",\"style\"]\n5:I[5751,[],\"default\"]\na:I[6130,[],\"default\"]\nb:[]\n0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/7cf712c7d9d1cb8c.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/88715c8b6e6491b1.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L5\",null,{\"buildId\":\"wVsPsHmnofERt_8G828N5\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/\",\"initialTree\":[\"\",{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"__PAGE__\",{},[[\"$L6\",\"$L7\"],null],null]},[\"$L8\",null],null],\"couldBeIntercepted\":false,\"initialHead\":[null,\"$L9\"],\"globalErrorComponent\":\"$a\",\"missingSlots\":\"$Wb\"}]]\nd:I[9275,[],\"default\"]\ne:I[1343,[],\"default\"]\n10:I[7640,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"322\",\"static/chunks/322-fbcc5440aad7f4ca.js\",\"185\",\"static/chunks/app/layout-58e679d846bb2c6f.js\"],\"GoogleTagManager\"]\n11:I[4080,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"322\",\"static/chunks/322-fbcc5440aad7f4ca.js\",\"185\",\"static/chunks/app/layout-58e679d846bb2c6f.js\"],\"default\"]\n8:[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"\",\"children\":[false,\"$Lc\",[\"$\",\"main\",null,{\"children\":[\"$\",\"$Ld\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$Le\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[],\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/f0af6ffdb9864d98.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/04b83fd50ac73018.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]]}]}],\"$Lf\",[\"$\",\"$L10\",null,{\"gtmId\":\"GTM-TFMKDRVC\"}],[\"$\",\"$L11\",null,{\"src\":\"https://app.termly.io/resource-blocker/f65d3f91-27cd-4b53-b071-f2679032d1ff?autoBlock=on\"}]]}]}]\n12:I[3140,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"322\",\"static/chunks/322-fbcc5440aad7f4ca.js\",\"185\",\"static/chunks/app/layout-58e679d846bb2c6f.js\"],\"default\"]\n13:I[231,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"173\",\"static/chunks/173-a4ce51ce811d05de.js\",\"83\",\"static/chunks/83-62d117ef9c3661f2.js\",\"1\",\"static/chunks/1-c42ad5dae133dc14.js\",\"931\",\"static/chunks/app/page-92e65e3038dc2943.js\"],\"default\"]\n14:Tc30,m73.707 2.771-4.138 17.576L65.076 2.77h-3.885l-4.427 1"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "7.545L52.591 2.77h-4.01L54.39 25.06h4.297L63.15 7.831l4.43 17.228h4.298l5.809-22.288h-3.979ZM91.315 21.428v-6.88c0-3.886-2.184-5.952-6.548-5.952-3.85 0-6.708 1.877-7.156 5.447h3.722c.226-1.75 1.475-2.642 3.403-2.642 1.927 0 2.888 1.05 2.888 2.356 0 .734-.288 1.336-1.475 1.53l-3.115.444c-2.73.444-5.999 1.336-5.999 5.095 0 2.8 2.056 4.65 5.233 4.65 2.117 0 4.235-.764 5.649-2.8v.352c0 1.244 1.028 2.04 2.662 2.04h2.375V22.17h-.868c-.448 0-.771-.286-.771-.734v-.009Zm-3.69-3.5c0 2.643-1.574 4.744-4.139 4.744-1.604 0-2.663-.796-2.663-2.229s.9-2.132 2.92-2.483l2.406-.414c.545-.127.997-.224 1.475-.479v.862ZM98.21 2.771h-3.722V25.06h3.722V2.771ZM104.553 2.771h-3.722V25.06h3.722V2.771ZM114.194 8.596c-4.816 0-7.864 3.631-7.864 8.44 0 4.81 3.048 8.436 7.864 8.436 4.236 0 6.739-2.387 7.253-5.446h-3.659c-.514 1.657-1.733 2.545-3.563 2.545-2.693 0-3.947-1.974-4.173-4.616h11.586c.257-6.941-3.208-9.363-7.444-9.363v.004Zm-4.076 6.88c.355-2.26 1.604-4.014 4.076-4.014 2.247 0 3.594 1.21 3.789 4.014h-7.865ZM128.2 20.285V11.85h3.465V9.014H128.2v-5.32h-3.721v4.524c0 .51-.288.796-.771.796h-1.764v2.835h2.535v9.236c0 2.77 1.378 3.979 4.076 3.979h3.5v-2.897h-2.18c-1.254 0-1.67-.541-1.67-1.877l-.005-.005ZM143.892 22.162c-3.881 0-6.353-3.407-6.353-8.247s2.405-8.246 6.353-8.246c3.048 0 4.94 2.004 5.49 4.936h4.045c-.514-4.743-3.851-8.247-9.531-8.247-5.999 0-10.429 4.524-10.429 11.557 0 7.034 4.364 11.557 10.429 11.557 5.069 0 8.857-2.738 9.726-8.343h-4.046c-.482 3.024-2.631 5.029-5.68 5.029l-.004.004ZM162.701 8.596c-5.037 0-7.957 3.631-7.957 8.44 0 4.81 2.92 8.436 7.957 8.436 5.038 0 7.927-3.596 7.927-8.436s-2.889-8.44-7.927-8.44Zm0 13.883c-2.986 0-4.138-2.58-4.138-5.478 0-2.897 1.157-5.411 4.138-5.411 2.982 0 4.139 2.545 4.139 5.411 0 2.866-1.157 5.478-4.139 5.478ZM181.442 8.596c-2.18 0-4.267 1.02-5.361 2.836V9.014h-3.722v16.05h3.722V16.02c0-2.484 1.732-4.33 4.01-4.33 2.056 0 3.402 1.336 3.402 3.758v9.619h3.722V15.005c0-4.075-2.149-6.4-5.777-6.4l.004-.009ZM198.789 8.596c-2.18 0-4.267 1.02-5.361 2.836V9.014h-3.722v16.05h3.722V16.02c0-2.484 1.732-4.33 4.009-4.33 2.056 0 3.403 1.336 3.403 3.758v9.619h3.722V15.005c0-4.075-2.149-6.4-5.778-6.4l.005-.009ZM214.047 8.596c-4.816 0-7.864 3.631-7.864 8.44 0 4.81 3.048 8.436 7.864 8.436 4.236 0 6.739-2.387 7.253-5.446h-3.66c-.514 1.657-1.732 2.545-3.562 2.545-2.694 0-3.948-1.974-4.174-4.616h11.586c.257-6.941-3.207-9.363-7.443-9.363v.004Zm-4.076 6.88c.354-2.26 1.604-4.014 4.076-4.014 2.246 0 3.593 1.21 3.788 4.014h-7.864ZM230.378 11.59c1.798 0 3.114 1.147 3.5 3.152h3.752c-.482-3.886-3.207-6.146-7.221-6.146-4.879 0-7.958 3.631-7.958 8.44 0 4.81 3.079 8.436 7.958 8.436 4.204 0 6.707-2.356 7.221-5.794h-3.721c-.514 1.877-1.702 2.8-3.531 2.8-2.792 0-4.108-2.514-4.108-5.477 0-2.963 1.316-5.411 4.108-5.411ZM246.001 22.162c-1.254 0-1.671-.54-1.671-1.877V11.85h3.465V9.014h-3.465v-5.32h-3.721v4.524c0 .51-.288.796-.771.796h-1.764v2.835h2.535v9.236c0 2.77 1.377 3.979 4.076 3.979h3.495v-2.897h-2.179v-.005ZM31.771 10.293l3.815-3.785c-8.622-8.554-19.335-8.554-27.957 0l3.815 3.785c6.557-6.506 13.774-6.506 20.332 0h-.005Zc:[\"$\",\"$L12\",null,{\"children\":[[\"$\",\"$L13\",null,{\"href\":{\"pathname\":\"/\"},\"className\":\"link--reset header_logo__nodcL\",\"children\":[\"$\",\"div\",null,{\"className\":\"logo_container__GAarf undefined\",\"aria-label\":\"walletconnect\",\"children\":[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"fill\":\"none\",\"viewBox\":\"0 0 249 27\",\"children\":[\"$\",\"g\",null,{\"fill\":\"#202020\",\"children\":[[\"$\",\"path\",null,{\"d\":\"$14\"}],[\"$\",\"path\",null,{\"d\":\"m30.5 19.111-8.896-8.827-8.897 8.827-8.897-8.827L0 14.064l12.707 12.613 8.897-8.827 8.896 8.827 12.707-12.612-3.81-3.78L30.5 19.11Z\"}]]}]}]}]}],[\"$\",\"div\",null,{\"className\":\"header_navigation__E0Q_b\",\"children\":\"$L15\"}]]}]\n16:I[1031,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"173\",\"static/chunks/173-a4ce51ce811d05de.js\",\"83\",\"static/chunks/83-62d117ef9c3661f2.js\",\"1\",\"static/chunks/1-c42ad5dae133dc14.js\",\"931\",\"static/chunks/app/page-92e65e3038dc2943.js\"],\"default\"]\n17:I[4395,[\"922\",\"static/chunk"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "s/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"173\",\"static/chunks/173-a4ce51ce811d05de.js\",\"83\",\"static/chunks/83-62d117ef9c3661f2.js\",\"1\",\"static/chunks/1-c42ad5dae133dc14.js\",\"931\",\"static/chunks/app/page-92e65e3038dc2943.js\"],\"default\"]\n18:I[2775,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"173\",\"static/chunks/173-a4ce51ce811d05de.js\",\"83\",\"static/chunks/83-62d117ef9c3661f2.js\",\"1\",\"static/chunks/1-c42ad5dae133dc14.js\",\"931\",\"static/chunks/app/page-92e65e3038dc2943.js\"],\"default\"]\n19:I[3099,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"173\",\"static/chunks/173-a4ce51ce811d05de.js\",\"83\",\"static/chunks/83-62d117ef9c3661f2.js\",\"1\",\"static/chunks/1-c42ad5dae133dc14.js\",\"931\",\"static/chunks/app/page-92e65e3038dc2943.js\"],\"default\"]\n1a:I[1092,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"173\",\"static/chunks/173-a4ce51ce811d05de.js\",\"83\",\"static/chunks/83-62d117ef9c3661f2.js\",\"1\",\"static/chunks/1-c42ad5dae133dc14.js\",\"931\",\"static/chunks/app/page-92e65e3038dc2943.js\"],\"default\"]\n1b:I[8173,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"173\",\"static/chunks/173-a4ce51ce811d05de.js\",\"83\",\"static/chunks/83-62d117ef9c3661f2.js\",\"1\",\"static/chunks/1-c42ad5dae133dc14.js\",\"931\",\"static/chunks/app/page-92e65e3038dc2943.js\"],\"Image\"]\n7:[[\"$\",\"$L16\",\"683b9ca38989\",{\"text\":\"The WalletConnect Token Community Round is coming to CoinList—play a key role in shaping the future of decentralized connectivity. T\u0026Cs apply.\",\"cta\":{\"externalUrl\":\"https://coinlist.co/walletconnect?utm_source=team\u0026utm_medium=web\u0026utm_campaign=WalletConnect+Community+Round\",\"linkText\":\"Learn more\",\"newTab\":true,\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null},\"_type\":\"announcement\",\"_key\":\"683b9ca38989\",\"color\":\"black\",\"first\":true}],[\"$\",\"section\",null,{\"className\":\"section page-width grid \",\"children\":[[\"$\",\"$L17\",null,{\"parentStyles\":\"\\n        productTeaser_content__c_3KS rounded\\n        teaserContentCard_container__ufE1N\\n      \",\"children\":[null,null,[\"$\",\"h2\",null,{\"className\":\"f-headline f-headline--large teaserContentCard_headline__fFuIc\",\"children\":\"WalletConnect Network: The onchain UX ecosystem\"}],[\"$\",\"ul\",null,{\"className\":\"teaserContentCard_ctas__Gzuix\",\"children\":[[\"$\",\"li\",\"637f193461cd\",{\"children\":[\"$\",\"$L18\",null,{\"link\":{\"internalLinkTitle\":null,\"_key\":\"637f193461cd\",\"color\":\"black\",\"style\":\"solid\",\"externalUrl\":\"blog/introducing-the-walletconnect-foundation.html\",\"linkText\":\"Learn more\",\"newTab\":true,\"internalLinkSlug\":null},\"linkStyle\":\"button button--solid theme--black\"}]}],[\"$\",\"li\",\"a6641c14daf5\",{\"children\":[\"$\",\"$L18\",null,{\"link\":{\"style\":\"outline\",\"externalUrl\":\"explore/sync.html\",\"linkText\":\"CONNECT WALLET\",\"newTab\":true,\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":\"a6641c14daf5\",\"color\":\"black\"},\"linkStyle\":\"button button--outline theme--black\"}]}]]}]]}],[\"$\",\"$L17\",null,{\"parentStyles\":\"productTeaser_media__uaCK9\",\"children\":[\"$\",\"video\",null,{\"src\":\"https://cdn.sanity.io/files/1t8iva7t/production/fdd57dc215836e52b5ae64f53ddc41d672a31629.mp4\",\"autoPlay\":true,\"muted\":true,\"loop\":true,\"playsInline\":true,\"webkit-playsinline\":\"true\",\"poster\":\"https://cdn.sanity.io/images/1t8iva7t/production/3cf1100869b5614226dcc82bfd13ca734b815d38-1424x1424.png\"}]}]]}],[\"$\",\"section\",null,{\"className\":\"section page-padding undefined\",\"children\":[\"$\",\"$L17\",null,{\"parentStyles\":\"grid theme--black focuscard_container__exiH1\",\"children\":[[\"$\",\"div\",null,{\"className\":\"focuscard_content__8Q3fO content--icon\",\"children\":[null,[\"$\",\"h2\",null,{\"className\":\"f-headline f-light focuscard_heading__MD_99\",\"children\":\"WalletConnect Network\"}],[\"$\",\"d"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "iv\",null,{\"className\":\"f-headline focuscard_text__v_fNk\",\"children\":[[\"$\",\"p\",null,{\"children\":[\"Where wallets, apps, and users connect to drive UX innovation, expand the ecosystem, and guide the network toward a decentralized, permissionless future.\"]}]]}],[\"$\",\"div\",null,{\"className\":\"focuscard_link__dWs5A\",\"children\":[\"$\",\"$L18\",null,{\"link\":{\"_type\":\"link\",\"newTab\":false},\"color\":\"white\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"focuscard_icon__Q6LmB\",\"children\":[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"fill\":\"none\",\"viewBox\":\"0 0 350 350\",\"children\":[[\"$\",\"circle\",null,{\"cx\":\"175\",\"cy\":\"175\",\"r\":\"175\",\"fill\":\"#fff\",\"transform\":\"matrix(-1 0 0 1 350 0)\"}],[\"$\",\"path\",null,{\"fill\":\"#202020\",\"d\":\"m229.916 160.179 20.601-20.474c-46.561-46.274-104.416-46.274-150.977 0l20.601 20.474c35.411-35.193 74.388-35.193 109.799 0h-.024Z\"}],[\"$\",\"path\",null,{\"fill\":\"#202020\",\"d\":\"m223.045 207.88-48.044-47.748-48.045 47.748-48.045-47.748-20.577 20.45 68.622 68.222 48.045-47.748 48.044 47.748 68.622-68.222-20.577-20.45-48.045 47.748Z\"}]]}]}]]}]}],[\"$\",\"section\",null,{\"className\":\"section page-padding undefined\",\"children\":[\"$\",\"$L17\",null,{\"parentStyles\":\"grid theme--gray focuscard_container__exiH1\",\"children\":[[\"$\",\"div\",null,{\"className\":\"focuscard_content__8Q3fO content--icon\",\"children\":[[\"$\",\"span\",null,{\"className\":\"f-mono focuscard_label__j90Vk\",\"children\":\"WCT\"}],[\"$\",\"h2\",null,{\"className\":\"f-headline f-light focuscard_heading__MD_99\",\"children\":\"Introducing WalletConnect Token (WCT)\"}],[\"$\",\"div\",null,{\"className\":\"f-headline focuscard_text__v_fNk\",\"children\":[[\"$\",\"p\",null,{\"children\":[\"WCT is the native token of the WalletConnect Network and secures the network via staking, rewards, fees, and governance.\"]}]]}],[\"$\",\"div\",null,{\"className\":\"focuscard_link__dWs5A\",\"children\":[\"$\",\"$L18\",null,{\"link\":{\"externalUrl\":\"explore/sync.html\",\"_type\":\"link\",\"linkText\":\"Check eligibility \",\"newTab\":false},\"color\":\"black\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"focuscard_icon__Q6LmB\",\"children\":[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"fill\":\"none\",\"viewBox\":\"0 0 350 350\",\"children\":[[\"$\",\"circle\",null,{\"cx\":\"175\",\"cy\":\"175\",\"r\":\"175\",\"fill\":\"#0888f0\",\"transform\":\"matrix(-1 0 0 1 350 0)\"}],[\"$\",\"path\",null,{\"fill\":\"#fff\",\"d\":\"m229.916 160.179 20.601-20.474c-46.561-46.274-104.416-46.274-150.977 0l20.601 20.474c35.411-35.193 74.388-35.193 109.799 0h-.024Z\"}],[\"$\",\"path\",null,{\"fill\":\"#fff\",\"d\":\"m223.045 207.88-48.044-47.748-48.045 47.748-48.045-47.748-20.577 20.45 68.622 68.222 48.045-47.748 48.044 47.748 68.622-68.222-20.577-20.45-48.045 47.748Z\"}]]}]}]]}]}],[\"$\",\"$L19\",\"4c7aaf86c259\",{\"_type\":\"numbers\",\"_key\":\"4c7aaf86c259\",\"headline\":\"By the numbers\",\"activeWallets\":30,\"connections\":185,\"traffic\":12,\"numApps\":50}],[\"$\",\"section\",null,{\"className\":\"section grid page-width\",\"children\":[[\"$\",\"$L17\",null,{\"parentStyles\":\"rounded partners_content__dCiv4 theme--gray1 contentCard_container__KufdP\",\"style\":\"$undefined\",\"children\":[[\"$\",\"p\",null,{\"className\":\"f-mono contentCard_kicker__zfRjz\",\"children\":\"Partners\"}],[\"$\",\"div\",null,{\"className\":\"contentCard_content__7oR_f\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"f-headline contentCard_headline__iGOpz\",\"children\":\"Ecosystem Partners\"}],[\"$\",\"div\",null,{\"className\":\"f-headline contentCard_text__HQQJE\",\"children\":[[\"$\",\"p\",null,{\"children\":[\"Host to thousands of leading projects, the WalletConnect Network powers the most vibrant ecosystem in web3 today.\"]}]]}]]}],null]}],[\"$\",\"$L1a\",null,{\"logos\":[{\"_key\":\"0bd6d10c9a53\",\"type\":null,\"asset\":{\"_ref\":null,\"altText\":null,\"description\":null,\"metadata\":{\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAApElEQVQYlZ3PMUuCARCH8XdIy6HVoU1aVUz6vaGTCn0FgxY3I0FTkSBnh7YmB5dWV/2GcXB9gBrubniO5/5XYIRP7PGNHZ7wjFdMMcEc79hghhessMQi9x4LvOGY0o9cfEAbJbpo4h79ZHfooIchBslvQxgpzjjhC2PUUUUNl6jkvMoZ7JdfZwWrhLCFNQ7YZqIQBPtzRbvATb7YiEtlWf5LFsIfuwpRwBSW74cAAAAASUVORK5CYII=\",\"dimensions\":{\"aspectRatio\":3.75,\"height\":32,\"_type\":\"sanity.imageDimensions\",\"width\":120},\"isOpaque\":false,\"blu"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "rHash\":\"D24.9:%M%Mt7j[~qIUM{Rjay\",\"_type\":\"sanity.imageMetadata\",\"palette\":{\"lightVibrant\":{\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0},\"darkVibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"lightMuted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\"},\"vibrant\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePaletteSwatch\"},\"dominant\":{\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":4.19},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":4.19,\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\"},\"muted\":{\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0}},\"hasAlpha\":true},\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/a6793b86dbe86ab6e071f174adb1d7b2392be57d-120x32.svg\"},\"crop\":null},{\"_key\":\"e23989b216a3\",\"type\":null,\"asset\":{\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/babcfe9416ac157e90a77bdfb23e41ef86fd1b00-125x33.svg\",\"_ref\":null,\"altText\":null,\"description\":null,\"metadata\":{\"palette\":{\"vibrant\":{\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"dominant\":{\"background\":\"#404040\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0.53},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0.53,\"background\":\"#404040\",\"_type\":\"sanity.imagePaletteSwatch\"},\"muted\":{\"title\":\"#fff\",\"population\":0.1,\"background\":\"#848484\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"lightVibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0,\"background\":\"#bcbcbc\"},\"darkVibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"lightMuted\":{\"title\":\"#fff\",\"population\":0.24,\"background\":\"#acacac\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\"}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAABOElEQVQYlV2Qy0qbURSF8wL1EbK+nc0fTi4lF0JCEioh8yRjwRcQwRcQ+ggOOikdFPoKrW1tp/UGOhZKEU1MUSd2UmwSEH85wVEHi7X2HuzLl5H0StJ7SZ8k7QAfzeyXmV0Au5I2JW0D+0DsXf6nc+CLpDVJLzKS1oFD4ErSiZmNQwj/SqXS3N3HknaBHyGEu0ajsWi32/NWqzVvNpvRZ/V6fZ4kyY2kt0A5A2y4+5m730v67e5/K5VKGhVzNpv9aWbX5XL5sd/vp6PRKB0MBulwOFx6r9dLC4XCA/AN6MWB6+5+5O5T4DSXy02KxeIshLAws4mkz8BBPp//U6vVlhd2Op1Ft9td5mq1ukiS5BZ4J+llfHkV+AB8lfQm8njmdwXsSdqS9Bo4BuLSqZkt9VyPge8RnaSVJ5xbegIRoGGSAAAAAElFTkSuQmCC\",\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":125,\"aspectRatio\":3.787878787878788,\"height\":33},\"isOpaque\":false,\"blurHash\":\"D25=624n9F~q4nxuWBWBj[ay\",\"_type\":\"sanity.imageMetadata\"},\"tags\":null},\"crop\":null},{\"_key\":\"3401faeae3e5\",\"type\":null,\"asset\":{\"altText\":null,\"description\":null,\"metadata\":{\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":120,\"aspectRatio\":3.75,\"height\":32},\"isOpaque\":false,\"blurHash\":\"D04o1dj[00xu00xuxuRjIUof\",\"_type\":\"sanity.imageMetadata\",\"palette\":{\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":4.09,\"background\":\"#353535\",\"_type\":\"sanity.imagePaletteSwatch\"},\"muted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\"},\"lightVibrant\":{\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0},\"darkVibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\"},\"lightMuted\":{\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\"},\"vibrant\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePal"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "etteSwatch\"},\"dominant\":{\"background\":\"#353535\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":4.09}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAu0lEQVQYlWXQXStFYRDF8U2RcrzmtZQcRC509rZ/cxIKuUBu9/f/KppjdomLVauntf4z8zQR0ZS2cF06wh5OcYGz0hTnuMQVbjKf3ZEzwlIrEbGBw4Lc4hEveMcXPvFWusdxRKxX9x9wNSI2a7ucfIcHPOEVHwV+rvdZZnOJ6v4A5/P5wmBSJ+U5J9j/o4Maln63fF4yjYhJMpKVoFFrv/5sB8td1zV93zdt2y7C6YdhyOwStiubnewuON9g3EhnzJdxHwAAAABJRU5ErkJggg==\"},\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/bd2fbef9b2b8a5a7f0fd1e3c155ab33f31d3b5db-120x32.svg\",\"_ref\":null},\"crop\":null},{\"_key\":\"b6f65f76528f\",\"type\":null,\"asset\":{\"description\":null,\"metadata\":{\"palette\":{\"dominant\":{\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":3.43},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":3.43},\"muted\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\"},\"lightVibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0,\"background\":\"#bcbcbc\"},\"darkVibrant\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\"},\"lightMuted\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"vibrant\":{\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAt0lEQVQYlW3QzysEcBAF8GUtioubQpSSg1/hM0vYOOAkNxeinDg4yNn/rlfjtlOv+c6bN+87zQAL2MQa5jGoqlFV5T2TuvM0jKpqEcN/LuIjvOIJp1itqg3sYht7zQeJk54JLnGLCxxksRi+4Rc/bXxcVfu4wyPe8Y0vfLT+pbWfPZfeMyYxvOlfJjjDFtZxiDHue/uH1iQK57jCdefETgxzw9xrhDnM9k1Sh1/CCpabSy+6aRj+AUIRTshu4fveAAAAAElFTkSuQmCC\",\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":123,\"aspectRatio\":3.84375,\"height\":32},\"isOpaque\":false,\"blurHash\":\"D04xlDxuxuRjRj?bxu%MWBD%\",\"_type\":\"sanity.imageMetadata\"},\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/aef61db22ab8e2f60a26a394f08452af561af5ba-123x32.svg\",\"_ref\":null,\"altText\":null},\"crop\":null},{\"_key\":\"92ceb3546750\",\"type\":null,\"asset\":{\"metadata\":{\"blurHash\":\"D04.9:-;of%MxuRjxut7oft7\",\"_type\":\"sanity.imageMetadata\",\"palette\":{\"dominant\":{\"title\":\"#fff\",\"population\":5.26,\"background\":\"#373737\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"title\":\"#fff\",\"population\":5.26,\"background\":\"#373737\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"muted\":{\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"lightVibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0,\"background\":\"#bcbcbc\"},\"darkVibrant\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\"},\"lightMuted\":{\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"vibrant\":{\"population\":0,\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\"}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAArElEQVQYlW3QvWpCURAEYKOmsjCgRJMIqUQlvxZfkS4pIhgIqIVv4APk/ZswYS9ciMWws3N29wzTwQAzjHGJHvqF3pm+i4tCtzXzhw4eccQGc6zwgocWnkvL+w0mmLbqbenDHHzDD054xxZ7fOEbOxxK+6gPlnjCohAtRiY5eF/LnyXG8WsNhcfZurQsx8k17orHYXhcXuVgchulKZ6smtrkl77Rmgz/5ZcMfwHfHUnd3TufFwAAAABJRU5ErkJggg==\",\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":136,\"aspectRatio\":4.25,\"height\":32},\"isOpaque\":false},\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/eb9a0d1c72ca098ab50c4aad7dacf01e9310d75f-136x32.sv"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "g\",\"_ref\":null,\"altText\":null,\"description\":null},\"crop\":null},{\"_key\":\"0fcd636eb9ff\",\"type\":null,\"asset\":{\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/48f81055b9722997ebea7d4c410d931b60484f49-120x32.svg\",\"_ref\":null,\"altText\":null,\"description\":null,\"metadata\":{\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAgElEQVQYlZXQWwtBURCG4Y2kuHPhuFHu5dQTLkj+/4/SZFZtKfHVNLNWfe8cqiqFEm1McfbSOt8r1BhnHX/d4vtQA9jCKIEP3BO8xxE7bLNR71fgEAfccMUlG0Q+YYP5PxMO0hArxrSzXHOJBSboNzxfgQUat4xc7tpp5Ig3T9ETZ0c34/gkeWIAAAAASUVORK5CYII=\",\"dimensions\":{\"width\":120,\"aspectRatio\":3.75,\"height\":32,\"_type\":\"sanity.imageDimensions\"},\"isOpaque\":false,\"blurHash\":\"D03uo}t700Rj%MxufQRjWBRj\",\"_type\":\"sanity.imageMetadata\",\"palette\":{\"lightVibrant\":{\"population\":0,\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\",\"title\":\"#fff\"},\"darkVibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\"},\"lightMuted\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"vibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#7f7f7f\"},\"dominant\":{\"background\":\"#363636\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":2.19},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":2.19,\"background\":\"#363636\"},\"muted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\"}},\"hasAlpha\":true}},\"crop\":null},{\"_key\":\"597744dddb6f\",\"type\":null,\"asset\":{\"_ref\":null,\"altText\":null,\"description\":null,\"metadata\":{\"_type\":\"sanity.imageMetadata\",\"palette\":{\"dominant\":{\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":2.79},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":2.79},\"muted\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"lightVibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\"},\"darkVibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"lightMuted\":{\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"vibrant\":{\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvUlEQVQYlX3QsUpDURAE0BuUWIiSSkWECIZAClGQs+8hSCAfoI1iIF2akFQiFgEbwVIbO7/A75Qb7gtpdGGYXZadHSallFJEJKy49Ds4xiE6OMAJLjDAfkRsoVXXdaqqanW/rjxsYBt9POAOQ9xjjDme8IjIz6KY+U9wFyMs8YwZPvGFb/wUXuAsC2aHmf8SbOMSU0xwixe84R0feC2OuxHRaqJaV5PBRobZZQ+nOMI5rnFTcJX3EbHX3DSCv3W9R0V6qUnGAAAAAElFTkSuQmCC\",\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":121,\"aspectRatio\":3.78125,\"height\":32},\"isOpaque\":false,\"blurHash\":\"D03[xTRj00xuofIUt7t7Rjxu\"},\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/bb2b2abac7a988c7d44435f1addec457c75d072b-121x32.svg\"},\"crop\":null},{\"_key\":\"7b7bacafd384\",\"type\":null,\"asset\":{\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/2a735b0398b90687495719914e9a9258a86476c7-120x32.svg\",\"_ref\":null,\"altText\":null,\"description\":null,\"metadata\":{\"palette\":{\"darkVibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\"},\"lightMuted\":{\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"vibrant\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePaletteSwatch\"},\"dominant\":{\"_type\":\"sani"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "ty.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":5.55,\"background\":\"#3c3c3c\"},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"title\":\"#fff\",\"population\":5.55,\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"muted\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\"},\"lightVibrant\":{\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsklEQVQYlV3QTUtCARCF4VtraRfkRiGSICzcPCTpjQyCIJAwBHdCERoVRh+CBNJPj4ERLi7exZwz5zBMgX1c4hYDDHGPMUa4Qhd99CrcZKaf8zlaRS6/YIkf/OIdr5jhMf01/rDAHN9Y4TP1L1xEYVwXwSiJxQmucZc8YJp+hJ4rcxzwhg884SQK6zhFG0f5gj0cpNfEYdKqcIYOjtNroBaFwW5SlGW50Xa22NY3mapX/ANznVV08N+lrAAAAABJRU5ErkJggg==\",\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":120,\"aspectRatio\":3.75,\"height\":32},\"isOpaque\":false,\"blurHash\":\"D05q|st79Fay4n_3WBM{M{D%\",\"_type\":\"sanity.imageMetadata\"},\"tags\":null},\"crop\":null},{\"_key\":\"7178bcb2bf10\",\"type\":null,\"asset\":{\"altText\":null,\"description\":null,\"metadata\":{\"blurHash\":\"D05E$[~q%Mxut74n_3j[M{t7\",\"_type\":\"sanity.imageMetadata\",\"palette\":{\"vibrant\":{\"population\":0,\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\"},\"dominant\":{\"title\":\"#fff\",\"population\":2.71,\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":2.71},\"muted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\"},\"lightVibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\"},\"darkVibrant\":{\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"lightMuted\":{\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\"}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAt0lEQVQYlV3QTSsEYBQF4GnMGMnIx2QjCyuSIcxjfIzkozRFLAgJKxv//wfo1pma3Dqd99665z33NLCBW3zhG30sYBVrWEEXS1hEB220wp0ptBvYwynG+MU9NrGLM1xhhPP0xxhM4STzqn4JPsbhJT7xhG0M8YDnzF7wFrzjA6+57Cf9uAQvcB2u33bQi8uDON3CPo7+uTuMuzvc1LUlOB+B9eRVWTSTUb2LZ5LXbDDJsDCH5cnuH/1kT4Pgj3q9AAAAAElFTkSuQmCC\",\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":120,\"aspectRatio\":3.75,\"height\":32},\"isOpaque\":false},\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/105c188e5274206d3647d5794afb2bf7f4f033d5-120x32.svg\",\"_ref\":null},\"crop\":null},{\"_key\":\"88f7ac91b7fb\",\"type\":null,\"asset\":{\"metadata\":{\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":127,\"aspectRatio\":3.96875,\"height\":32},\"isOpaque\":false,\"blurHash\":\"D05OQn%MRjoft7%Mxuj[xufQ\",\"_type\":\"sanity.imageMetadata\",\"palette\":{\"lightMuted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\"},\"vibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#7f7f7f\"},\"dominant\":{\"title\":\"#fff\",\"population\":5.17,\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"population\":5.17,\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\"},\"muted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\"},\"lightVibrant\":{\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0,\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\"},\"darkVibrant\":{\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "xElEQVQYlTXQzyvEURQF8C/NDNMosVDWZDmD6XMzaSZSfsygLMiCyUqxJIqVP10316vTe+fd2zn3ngbr2MU2liKigxX00ImIRSxERCsisr6MbvZm3d/dRit5gwM84hRbGOK6cFQ8MYqIESaY4gwnuMAxDjFOwX084Bk3uMMHvvCG98IL7sv8E9/V81P8FU8pmOsNSugcUY7pfok5bmuyPvaqnhPOcFXbjaHJUznuYKNy+ccqNrFWPHNMZGbJM89EvvOv/Quvl1FiX0/eTQAAAABJRU5ErkJggg==\"},\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/4fd56e304554b57bd8994e93ba39fff27febee5d-127x32.svg\",\"_ref\":null,\"altText\":null,\"description\":null},\"crop\":null},{\"_key\":\"7a2aec06d647\",\"type\":null,\"asset\":{\"description\":null,\"metadata\":{\"blurHash\":\"D05OQn4n_39F_3-;%MWB%May\",\"_type\":\"sanity.imageMetadata\",\"palette\":{\"muted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\"},\"lightVibrant\":{\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0,\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\"},\"darkVibrant\":{\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"lightMuted\":{\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\"},\"vibrant\":{\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"dominant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":3.63,\"background\":\"#3c3c3c\"},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"title\":\"#fff\",\"population\":3.63,\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwElEQVQYlV3QTSvEURTH8RljmPE4WUw2KHkWU/I5srKQZGOiRJG8AwtJ2crCu9ap8y9ZfLvfc2733NOvhQUMivRZzGC+6kXMYRrdP3QiooPJuuuh38I1nvGCe4xxi6fiAZcY4aDOPaxFxDJWsFns5sBHvOMDr/jEN37whTfc4QwXuMI5IiIOcZSO/fwoB+7gpJrH9eCmNk0/xRZWsYHtZqOIyDp9HUMs5cAmhyQ98+hXJk1uE//I/LoRMVWkZ6/9CzPyToKsdQC8AAAAAElFTkSuQmCC\",\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":136,\"aspectRatio\":4.25,\"height\":32},\"isOpaque\":false},\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/c7dad51589023437117b5c9f12db22b433400370-136x32.svg\",\"_ref\":null,\"altText\":null},\"crop\":null},{\"_key\":\"e59ef199d94a\",\"type\":null,\"asset\":{\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/bee6969e87490d457ecbf7a3705acf3384755998-136x32.svg\",\"_ref\":null,\"altText\":null,\"description\":null,\"metadata\":{\"palette\":{\"lightMuted\":{\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"vibrant\":{\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"dominant\":{\"population\":4.62,\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\"},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":4.62,\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\"},\"muted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\"},\"lightVibrant\":{\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0},\"darkVibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvUlEQVQYlXXQTUpDQRAE4KdJTHKDkG1Unj9oNH4PVIwgmkUEERExEIlHyQ2ShXsXegZP4MGkoRdv40BRRVVPzdAFrnCLi6qq+uigm9xAgY3UgSY20y9qfswUYXziCytMcRzlOEOJbexhiFOcYB+DzA5xlLqMwl/84BvvuMMjHnCf/Io3LDDHC54ye8Ys78yj8ANrLDHBDnZxkC+PcIkxrvP354k4Vc27icIQMRhBr7aj4EAL7dxpYOsfxEz3D2znUh4kB7dBAAAAAElFTkSuQmCC\",\"dimensions\":{\"width\":136,\"aspectRatio\":4.25,\"height\":32,\"_type\":\"sanity.imageDimensions\"},\"isOpaque\":false,\"blurHash\":\"D05E$[_3of?bt7t7WBM{xuof\",\"_type\":\"sanity.imageMetadata\"},\"tags\":null,\"title\":null},\"crop\":null},{\"_key\":\"64c5933e0756\",\"type\":null,\"asset\":{\"_ref\":null,\"altText\":null,\"description\":null,\"metadata\":{\"isOpaque\":false,\"blu"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "rHash\":\"D05OQn_300-;9F9F-;IUxut7\",\"_type\":\"sanity.imageMetadata\",\"palette\":{\"vibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"dominant\":{\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":3.32},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":3.32},\"muted\":{\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"lightVibrant\":{\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0},\"darkVibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"lightMuted\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\"}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA1UlEQVQYlU3QOUrEQRDF4dEZtxGMRBD3QNzBhU9x/7srJnoXA0PBS+g59CwGnkZK3sAEj+quqv7V62qhhWncYBvDyQ1hNKpcp0/tqIPB9P+rleZ7fOAFi5jCOnawl7iBZayktomtmGn3Ayvxhl984y4PznAeXeMC+zjCFR5wizWMxelAAefwjh984RGrOI4OAjntG9DgMkN3A62fTRRwHE/4xGtgs3HTc1mxIOW+XNX9MDpJrVYz1WqapqALeE5DFyOYDLgmz+cndV7CTFZVuV6t9t79A5+fYMLwQSBbAAAAAElFTkSuQmCC\",\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":112,\"aspectRatio\":3.5,\"height\":32}},\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/02a9da5f32933931883c19700425a633e8736308-112x32.svg\"},\"crop\":null},{\"_key\":\"1430fc3294f0\",\"type\":null,\"asset\":{\"metadata\":{\"blurHash\":\"D05OQn~q00-;xu9F-;D%ofRj\",\"_type\":\"sanity.imageMetadata\",\"palette\":{\"darkVibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"lightMuted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\"},\"vibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#7f7f7f\"},\"dominant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":2.8,\"background\":\"#3c3c3c\"},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":2.8},\"muted\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"lightVibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\"}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVQYlU3QWysEUBQF4JEHkeGBIYXBKA+GSXy7JknJLZJcSlMol3n1A7x48S/8We3aD3NqnfY6Z6+19jkNzOMAJ+gmj4h2RPQiYgdtLNfdbkQkuhHRiogxNEaR2x6+8IsHbEbEMV4xwGWF3RV/xiMybAaTmMIExtMw1w/+8FmTnGGIDzzhvszequcFp9gvfT+nx2IabuEd3zVFB70SXOGiAq5xW8j6CIc4xw3yVZ00nMN2pa1hGk0sYHXkD1ewUXypdK3qWa+z2X8aWVMFfysLnwAAAABJRU5ErkJggg==\",\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":125,\"aspectRatio\":3.90625,\"height\":32},\"isOpaque\":false},\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/4969bded4e32187caf0a0c1ff3f1df2f1bc6320f-125x32.svg\",\"_ref\":null,\"altText\":null,\"description\":null},\"crop\":null},{\"_key\":\"a1e449621e6d\",\"type\":null,\"asset\":{\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/9cad17009e71c59914f7a39c145beb41ce4e3d64-112x32.svg\",\"_ref\":null,\"altText\":null,\"description\":null,\"metadata\":{\"_type\":\"sanity.imageMetadata\",\"palette\":{\"lightVibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0,\"background\":\"#bcbcbc\"},\"darkVibrant\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\"},\"lightMuted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\"},\"vibrant\":{\"population\":0,\"background\":\"#7f7f7"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "f\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\"},\"dominant\":{\"title\":\"#fff\",\"population\":7.28,\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"title\":\"#fff\",\"population\":7.28,\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"muted\":{\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA5klEQVQYlWXRsSuFYRQG8O8igySDkoHSZaCk9P0ORgbplqJYZFAGSeFPuElmWYxWg4nIqAwy+o90bu+3XKee9znn9PacznkqrKIbEU8R8RwRD9jDGCoMRERy1TBaBVVfv8rnDO/4wie+cYM5TGMZM2XAKCbQxiwmC8Yx3Ah28Yp73OKl5BlbuMQRtkvdKfUx9nGAHSymaE8wIt7wiFw38zsENnFekJuc4hAnuCr95AtsYKRZ+SMifpH4wTXmMVUmr2C9DFnAEtZKnZE+5AmGUvCfKRGxmzer67pnCgbzc+H+ukErzfkD++1sjGsJDv4AAAAASUVORK5CYII=\",\"dimensions\":{\"aspectRatio\":3.5,\"height\":32,\"_type\":\"sanity.imageDimensions\",\"width\":112},\"isOpaque\":false,\"blurHash\":\"D15E$[_3of%MM{Rjt7xuofRj\"},\"tags\":null},\"crop\":null},{\"_key\":\"c5cc52a20cb8\",\"type\":null,\"asset\":{\"metadata\":{\"palette\":{\"lightVibrant\":{\"foreground\":\"#000\",\"title\":\"#fff\",\"population\":0,\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\"},\"darkVibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\"},\"lightMuted\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\"},\"vibrant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0,\"background\":\"#7f7f7f\"},\"dominant\":{\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":4.59,\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\"},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":4.59,\"background\":\"#3c3c3c\"},\"muted\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA1UlEQVQYlWXRzStFURTG4c0tkQyUiRKuz2LC6Tz7KN0yUVKYClEShpiY+IiBOVP/rLbWresYvO1aH7+13r0SEsawgTNcYRfTGK6qKuWc/6j0tGM551TXdeoXzAXoA0+4RA+zmMFKaAHzocWILUfNaGEV2BA28Y5vfOI5tt3HMe5D17jAaQw9xxG2MdkGvuErtnyNxsN4H3CH2wFQ0QG2sI7xX2BYLiuXxhc84gY76IbN1bC3FFZLrHzTFCYKDJ1B4AjWcBK29mJIp2mafwfpH6UcoZ3/AZQJYaipL+9HAAAAAElFTkSuQmCC\",\"dimensions\":{\"width\":113,\"aspectRatio\":3.53125,\"height\":32,\"_type\":\"sanity.imageDimensions\"},\"isOpaque\":false,\"blurHash\":\"D04.9:~q4nIU00-;WBWBRjWB\",\"_type\":\"sanity.imageMetadata\"},\"tags\":null,\"title\":null,\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/943d691da51f2eae33bb951d251f481dbf2c5a25-113x32.svg\",\"_ref\":null,\"altText\":null,\"description\":null},\"crop\":null},{\"_key\":\"ce2d90e12de0\",\"type\":null,\"asset\":{\"url\":\"https://cdn.sanity.io/images/1t8iva7t/production/cc7c3ee76f81369af90027dac4b7357584e30059-120x32.svg\",\"_ref\":null,\"altText\":null,\"description\":null,\"metadata\":{\"dimensions\":{\"_type\":\"sanity.imageDimensions\",\"width\":120,\"aspectRatio\":3.75,\"height\":32},\"isOpaque\":false,\"blurHash\":\"D042M3WB00xu9FxufQRjj[WB\",\"_type\":\"sanity.imageMetadata\",\"palette\":{\"darkVibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#424242\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"lightMuted\":{\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":0},\"vibrant\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#7f7f7f\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"dominant\":{\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":3.65,\"background\":\"#3c3c3c\"},\"_type\":\"sanity.imagePalette\",\"darkMuted\":{\"background\":\"#3c3c3c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\",\"title\":\"#fff\",\"population\":3.65},\"muted\":{\"title\":\"#fff\",\"population\":0,\"background\":\"#4c4c4c\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#fff\"},\"lightVibrant\":{\"title\":\"#fff\",\"population\":"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "0,\"background\":\"#bcbcbc\",\"_type\":\"sanity.imagePaletteSwatch\",\"foreground\":\"#000\"}},\"hasAlpha\":true,\"lqip\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAxElEQVQYlX3PTysFcRTG8V+3/ImVhYWysZ7GnWbmcxI1W7EipRtiJQslbLwEyVJ27GQheY361YxuiVOn85ynnm89KaWUkIqiSG3bZr2GKzxHxANucIrD/h5hDztYzdk+l35m2sQYjxHxFRGfeMML7nCMC1zjACs5U1XVv8AS9xHxERHveMUTbnGCc1xifwA2TfMbWJblAF3GdkScRcQEu+iwgS1sosU6lv6s3HVdqus66xHmsYgFzGEGs70//HlHGTYN/AalAUmWQTFxwQAAAABJRU5ErkJggg==\"},\"tags\":null,\"title\":null},\"crop\":null}],\"parentStyles\":\"partners_logos__QO4ED\"}]]}],[\"$\",\"section\",null,{\"className\":\"page-width section\",\"children\":[\"$\",\"ul\",null,{\"className\":\"grid\",\"children\":[[\"$\",\"li\",\"9b92f196-1c82-48e8-a42e-cb35e23da947\",{\"className\":\"selectedPosts_item__LXhkZ\",\"children\":[\"$\",\"$L17\",null,{\"parentStyles\":\"theme--gray1 postTeaser_container--narrow__GthmH\",\"style\":{\"--order\":0},\"children\":[[\"$\",\"div\",null,{\"className\":\"undefined undefined theme--black\",\"children\":[\"$\",\"$L13\",null,{\"href\":{\"pathname\":\"/blog/what-is-the-walletconnect-network\"},\"className\":\"postTeaser_thumbnail__bob5X\",\"children\":[\"$\",\"$L1b\",null,{\"src\":\"https://cdn.sanity.io/images/1t8iva7t/production/e5b181583e2341289ba6ce7908548fd979f9e0ec-3840x2160.png\",\"alt\":\"four grey circles interlocked with a square line with a black background\",\"title\":\"WalletConnect Network image abstract\",\"width\":3840,\"height\":2160,\"sizes\":\"(min-width: 764px) calc(100vw - 1rem), calc(100vw - .875rem)\",\"priority\":false,\"quality\":100}]}]}],[\"$\",\"div\",null,{\"className\":\"postTeaser_content__fbBzK undefined\",\"children\":[\"$\",\"div\",null,{\"className\":\"postTeaser_info__6Mc4X\",\"children\":[[\"$\",\"div\",null,{\"className\":\"postTeaser_info__top__2BxHB f-body--small f-mono\",\"children\":[[\"$\",\"time\",null,{\"dateTime\":\"2024-11-07T15:00:59.071Z\",\"children\":\"11.07.2024\"}],[\"$\",\"p\",null,{\"children\":\"Foundation, Network\"}]]}],[\"$\",\"$L13\",null,{\"href\":{\"pathname\":\"/blog/what-is-the-walletconnect-network\"},\"className\":\"link--reset\",\"children\":[\"$\",\"h3\",null,{\"className\":\"postTeaser_headline__6xqSg f-headline\",\"children\":\"What is the WalletConnect Network? \"}]}],[\"$\",\"$L13\",null,{\"href\":{\"pathname\":\"/blog/what-is-the-walletconnect-network\"},\"className\":\"arrow__container theme--black link--reset postTeaser_info__arrow__5tked\",\"children\":[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBox\":\"0 0 54 45\",\"fill\":\"none\",\"children\":[\"$\",\"path\",null,{\"stroke\":\"currentColor\",\"strokeWidth\":\"4\",\"d\":\"m30.668 1.593 21.475 21.46m0 0L31.219 43.962m20.924-20.91H0\"}]}]}]]}]}]]}]}],[\"$\",\"li\",\"517b4239-17e2-4c08-b7e2-c451922a41e0\",{\"className\":\"selectedPosts_item__LXhkZ\",\"children\":[\"$\",\"$L17\",null,{\"parentStyles\":\"theme--gray1 postTeaser_container--narrow__GthmH\",\"style\":{\"--order\":1},\"children\":[[\"$\",\"div\",null,{\"className\":\"undefined undefined theme--black\",\"children\":[\"$\",\"$L13\",null,{\"href\":{\"pathname\":\"/blog/introducing-walletguide-and-walletconnect-certified\"},\"className\":\"postTeaser_thumbnail__bob5X\",\"children\":[\"$\",\"$L1b\",null,{\"src\":\"https://cdn.sanity.io/images/1t8iva7t/production/e260dfddcc3f11403f5b01474e2e5244ddf87273-3840x2160.png\",\"alt\":\"Gold WalletConnect logo in a golden circle with a black background\",\"title\":\"Gold WalletConnect Logo\",\"width\":3840,\"height\":2160,\"sizes\":\"(min-width: 764px) calc(100vw - 1rem), calc(100vw - .875rem)\",\"priority\":false,\"quality\":100}]}]}],[\"$\",\"div\",null,{\"className\":\"postTeaser_content__fbBzK undefined\",\"children\":[\"$\",\"div\",null,{\"className\":\"postTeaser_info__6Mc4X\",\"children\":[[\"$\",\"div\",null,{\"className\":\"postTeaser_info__top__2BxHB f-body--small f-mono\",\"children\":[[\"$\",\"time\",null,{\"dateTime\":\"2024-11-11T07:16:00.000Z\",\"children\":\"11.11.2024\"}],[\"$\",\"p\",null,{\"children\":\"Foundation, Company Update\"}]]}],[\"$\",\"$L13\",null,{\"href\":{\"pathname\":\"/blog/introducing-walletguide-and-walletconnect-certified\"},\"className\":\"link--reset\",\"children\":[\"$\",\"h3\",null,{\"className\":\"postTeaser_headline__6xqSg f-headline\",\"children\":\"Introducing WalletGuide and WalletConnect Certified – The New Standard for Onchain Wallets\"}]}],[\"$\",\"$L13\",null,{\"href\":{\"pathname\":\"/bl"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "og/introducing-walletguide-and-walletconnect-certified\"},\"className\":\"arrow__container theme--black link--reset postTeaser_info__arrow__5tked\",\"children\":[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBox\":\"0 0 54 45\",\"fill\":\"none\",\"children\":[\"$\",\"path\",null,{\"stroke\":\"currentColor\",\"strokeWidth\":\"4\",\"d\":\"m30.668 1.593 21.475 21.46m0 0L31.219 43.962m20.924-20.91H0\"}]}]}]]}]}]]}]}],[\"$\",\"li\",\"b6b24f6b-fb0a-44f3-a4cd-39cb441bfc7d\",{\"className\":\"selectedPosts_item__LXhkZ\",\"children\":[\"$\",\"$L17\",null,{\"parentStyles\":\"theme--gray1 postTeaser_container--narrow__GthmH\",\"style\":{\"--order\":2},\"children\":[[\"$\",\"div\",null,{\"className\":\"undefined undefined theme--black\",\"children\":[\"$\",\"$L13\",null,{\"href\":{\"pathname\":\"/blog/walletconnect-a-year-in-review-and-vision-for-2025\"},\"className\":\"postTeaser_thumbnail__bob5X\",\"children\":[\"$\",\"$L1b\",null,{\"src\":\"https://cdn.sanity.io/images/1t8iva7t/production/c07ed549e37bed9baa634ab789c1b809004bb7fd-3840x2160.png\",\"alt\":\"WalletConnect logo set in a greyscaled button with a black background\",\"title\":\"Grey button WalletConnect Foundation\",\"width\":3840,\"height\":2160,\"sizes\":\"(min-width: 764px) calc(100vw - 1rem), calc(100vw - .875rem)\",\"priority\":false,\"quality\":100}]}]}],[\"$\",\"div\",null,{\"className\":\"postTeaser_content__fbBzK undefined\",\"children\":[\"$\",\"div\",null,{\"className\":\"postTeaser_info__6Mc4X\",\"children\":[[\"$\",\"div\",null,{\"className\":\"postTeaser_info__top__2BxHB f-body--small f-mono\",\"children\":[[\"$\",\"time\",null,{\"dateTime\":\"2025-01-24T13:37:09.944Z\",\"children\":\"01.24.2025\"}],[\"$\",\"p\",null,{\"children\":\"Foundation, Company Update\"}]]}],[\"$\",\"$L13\",null,{\"href\":{\"pathname\":\"/blog/walletconnect-a-year-in-review-and-vision-for-2025\"},\"className\":\"link--reset\",\"children\":[\"$\",\"h3\",null,{\"className\":\"postTeaser_headline__6xqSg f-headline\",\"children\":\"WalletConnect: A Year in Review and Vision for 2025\"}]}],[\"$\",\"$L13\",null,{\"href\":{\"pathname\":\"/blog/walletconnect-a-year-in-review-and-vision-for-2025\"},\"className\":\"arrow__container theme--black link--reset postTeaser_info__arrow__5tked\",\"children\":[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBox\":\"0 0 54 45\",\"fill\":\"none\",\"children\":[\"$\",\"path\",null,{\"stroke\":\"currentColor\",\"strokeWidth\":\"4\",\"d\":\"m30.668 1.593 21.475 21.46m0 0L31.219 43.962m20.924-20.91H0\"}]}]}]]}]}]]}]}]]}]}],[\"$\",\"section\",null,{\"className\":\"section page-width grid cardGroup_container__Ucagj\",\"children\":[[\"$\",\"$L17\",null,{\"parentStyles\":\"cardGroup_card__W4mTK cardGroup_card--media__gmMnt\",\"style\":{\"--order\":0},\"children\":[[\"$\",\"$L1b\",null,{\"src\":\"https://cdn.sanity.io/images/1t8iva7t/production/bb8b5ec3a206f31dffd276e3f8686da7be8c2ddb-1424x1424.png\",\"alt\":\"\",\"title\":\"\",\"width\":1424,\"height\":1424,\"sizes\":\"(min-width: 764px) calc(100vw - 1rem), calc(100vw - .875rem)\",\"priority\":false,\"quality\":100}],\";\"]}],[\"$\",\"$L17\",null,{\"parentStyles\":\"cardGroup_card__W4mTK theme--gray1 contentCard_container__KufdP\",\"style\":{\"--order\":1},\"children\":[[\"$\",\"p\",null,{\"className\":\"f-mono contentCard_kicker__zfRjz\",\"children\":\"WalletGuide\"}],[\"$\",\"div\",null,{\"className\":\"contentCard_content__7oR_f\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"f-headline contentCard_headline__iGOpz\",\"children\":\"The benchmark for digital wallets.\"}],[\"$\",\"div\",null,{\"className\":\"f-headline contentCard_text__HQQJE\",\"children\":[[\"$\",\"p\",null,{\"children\":[\"WalletGuide is the ultimate directory of onchain wallets that adhere to the highest UX standards and excel in security, features, and quality.\",\"\"]}]]}]]}],[\"$\",\"ul\",null,{\"className\":\"contentCard_ctas__2Mn6u\",\"children\":[[\"$\",\"li\",\"82694fa7a271\",{\"children\":[\"$\",\"$L18\",null,{\"link\":{\"newTab\":false,\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":\"82694fa7a271\",\"color\":\"black\",\"style\":\"solid\",\"externalUrl\":\"http://walletguide.walletconnect.network/\",\"linkText\":\"Learn More\"},\"linkStyle\":\"button button--solid theme--black\"}]}]]}]]}]]}]]\n9:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"WalletConnect: The onchain UX ecosystem — Wall"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "etConnect\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"The WalletConnect Network is the onchain UX ecosystem powering 150 million connections for over 23 million users across 600 wallets, 40K projects, and all chains.\"}],[\"$\",\"meta\",\"4\",{\"property\":\"og:title\",\"content\":\"WalletConnect: The onchain UX ecosystem — WalletConnect\"}],[\"$\",\"meta\",\"5\",{\"property\":\"og:description\",\"content\":\"The WalletConnect Network is the onchain UX ecosystem powering 150 million connections for over 23 million users across 600 wallets, 40K projects, and all chains.\"}],[\"$\",\"meta\",\"6\",{\"property\":\"og:image\",\"content\":\"https://cdn.sanity.io/images/1t8iva7t/production/122f54e80621a15b54c901685d05c17e5354e453-2400x1260.png\"}],[\"$\",\"meta\",\"7\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"8\",{\"name\":\"twitter:title\",\"content\":\"WalletConnect: The onchain UX ecosystem — WalletConnect\"}],[\"$\",\"meta\",\"9\",{\"name\":\"twitter:description\",\"content\":\"The WalletConnect Network is the onchain UX ecosystem powering 150 million connections for over 23 million users across 600 wallets, 40K projects, and all chains.\"}],[\"$\",\"meta\",\"10\",{\"name\":\"twitter:image\",\"content\":\"https://cdn.sanity.io/images/1t8iva7t/production/122f54e80621a15b54c901685d05c17e5354e453-2400x1260.png\"}],[\"$\",\"link\",\"11\",{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"type\":\"image/x-icon\",\"sizes\":\"32x32\"}],[\"$\",\"link\",\"12\",{\"rel\":\"icon\",\"href\":\"icon5bf4.png?14b0dfc4ce526451\",\"type\":\"image/png\",\"sizes\":\"768x768\"}]]\n6:null\n1c:I[9311,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"322\",\"static/chunks/322-fbcc5440aad7f4ca.js\",\"185\",\"static/chunks/app/layout-58e679d846bb2c6f.js\"],\"default\"]\n1d:I[9302,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"322\",\"static/chunks/322-fbcc5440aad7f4ca.js\",\"185\",\"static/chunks/app/layout-58e679d846bb2c6f.js\"],\"default\"]\n15:[\"$\",\"$L1c\",null,{\"items\":[{\"_key\":\"b4c8d304f43c\",\"highlight\":false,\"link\":{\"linkText\":\"Airdrop\",\"newTab\":false,\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null,\"externalUrl\":\"explore/sync.html\"}},{\"_key\":\"5ebc59bcac50\",\"highlight\":false,\"link\":{\"_key\":null,\"externalUrl\":\"https://profile.walletconnect.network/\",\"linkText\":\"Profile\",\"newTab\":false,\"internalLinkSlug\":null,\"internalLinkTitle\":null}},{\"_key\":\"1807746b743f\",\"highlight\":false,\"link\":{\"_key\":null,\"externalUrl\":null,\"linkText\":\"Blog\",\"newTab\":false,\"internalLinkSlug\":\"blog\",\"internalLinkTitle\":\"Blog\"}},{\"_key\":\"e0be0dfebc45\",\"highlight\":null,\"link\":null,\"childNavigation\":{\"_id\":\"4fb8e49e-bd6a-4f2a-9c74-80f70ea954f6\",\"title\":\"Network\",\"items\":[{\"_key\":\"2d34e72c2e15\",\"highlight\":false,\"link\":{\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null,\"externalUrl\":\"https://docs.walletconnect.network/\",\"linkText\":\"Docs\",\"newTab\":true}},{\"_key\":\"26f629a98c73\",\"highlight\":false,\"link\":{\"newTab\":true,\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null,\"externalUrl\":\"https://whitepaper.walletconnect.network/\",\"linkText\":\"Whitepaper\"}},{\"_key\":\"c50b2e50354d\",\"highlight\":false,\"link\":{\"internalLinkSlug\":\"foundation\",\"internalLinkTitle\":\"Foundation\",\"_key\":null,\"externalUrl\":null,\"linkText\":\"Foundation\",\"newTab\":false}},{\"_key\":\"7b84929ba6c35d9c722387c7013cfd7f\",\"highlight\":false,\"link\":{\"linkText\":\"Vote\",\"newTab\":false,\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null,\"externalUrl\":\"https://vote.walletconnect.network/\"}},{\"_key\":\"4583ccd7752a9263c628f77c9cb8fd23\",\"highlight\":false,\"link\":{\"externalUrl\":\"https://governance.walletconnect.network/\",\"linkText\":\"Governance\",\"newTab\":false,\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null}}]}},{\"_key\":\"7351629fd427\",\"highlight\":false,\"link\":{\"_key\":null,\"externalUrl\":\"https://walletguide.walletconnect.network/\",\"linkText\":\"WalletGuide\",\"newTab\":true,\"internalLinkSlug\":null,\"internalLinkTitle\":null}}]}]\nf:[\"$\",\"footer\",null,{\"style\":{\"maxWidth\":\"var(--maxWidth)\",\"marginInline\":\"auto\"},\"ch"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "ildren\":[[\"$\",\"section\",null,{\"className\":\"section page-padding section--group\",\"children\":[\"$\",\"$L17\",null,{\"parentStyles\":\"grid theme--blue focuscard_container__exiH1\",\"children\":[[\"$\",\"div\",null,{\"className\":\"focuscard_content__8Q3fO\",\"children\":[null,[\"$\",\"h2\",null,{\"className\":\"f-headline f-light focuscard_heading__MD_99\",\"children\":\"Explore the onchain UX ecosystem\"}],[\"$\",\"div\",null,{\"className\":\"f-headline focuscard_text__v_fNk\",\"children\":[[\"$\",\"p\",null,{\"children\":[\"Learn more about the WalletConnect Network and how to become part of its thriving community.\"]}]]}],[\"$\",\"div\",null,{\"className\":\"focuscard_link__dWs5A\",\"children\":[\"$\",\"$L18\",null,{\"link\":{\"_key\":null,\"externalUrl\":\"https://docs.walletconnect.network/\",\"linkText\":\"Learn more\",\"newTab\":true,\"internalLinkSlug\":null,\"internalLinkTitle\":null},\"color\":\"black\"}]}]]}],false]}]}],[\"$\",\"section\",null,{\"className\":\"section page-padding section--group\",\"children\":[\"$\",\"$L17\",null,{\"parentStyles\":\"grid theme--black footercard_container__kFugH\",\"children\":[[\"$\",\"div\",null,{\"className\":\"footercard_newsletter__b_W1S\",\"children\":[\"$\",\"$L1d\",null,{\"label\":null,\"title\":\"Keep in touch\",\"text\":[{\"_type\":\"block\",\"style\":\"normal\",\"_key\":\"b3d03f7900b0\",\"markDefs\":[],\"children\":[{\"text\":\"Be first to get news and updates on the WalletConnect Network.\",\"_key\":\"5a50454759410\",\"_type\":\"span\",\"marks\":[]}]}],\"placeholder\":\"Your email\",\"successMessage\":\"Thank you for signing up\",\"errorMessage\":\"Something went wrong! Try again later...\"}]}],[\"$\",\"div\",null,{\"className\":\"footercard_navigations__wxNwQ\",\"children\":[[\"$\",\"div\",\"9788bf3e-3050-42d5-8ab3-b2ac9a50f2ad\",{\"className\":\"footercard_navigation__NtBag\",\"children\":\"$L1e\"}],[\"$\",\"div\",\"4fb8e49e-bd6a-4f2a-9c74-80f70ea954f6\",{\"className\":\"footercard_navigation__NtBag\",\"children\":\"$L1f\"}],[\"$\",\"div\",\"6825585e-52b4-44ab-8edc-d81826a3b457\",{\"className\":\"footercard_navigation__NtBag\",\"children\":\"$L20\"}]]}],[\"$\",\"div\",null,{\"className\":\"f-body--small footercard_meta__oMA56\",\"children\":[[\"$\",\"div\",null,{\"className\":\"footercard_meta__logo__bqQNB\",\"children\":[\"$\",\"svg\",null,{\"xmlns\":\"http://www.w3.org/2000/svg\",\"fill\":\"none\",\"viewBox\":\"0 0 43 27\",\"children\":[[\"$\",\"path\",null,{\"fill\":\"currentColor\",\"d\":\"m31.62 10.068 3.796-3.736c-8.581-8.443-19.243-8.443-27.823 0l3.796 3.736c6.526-6.421 13.709-6.421 20.235 0h-.005Z\"}],[\"$\",\"path\",null,{\"fill\":\"currentColor\",\"d\":\"M30.354 18.77 21.5 10.06l-8.854 8.711-8.854-8.711L0 13.789l12.646 12.448 8.854-8.712 8.854 8.712L43 13.79l-3.792-3.731-8.854 8.711Z\"}]]}]}],[\"$\",\"div\",null,{\"className\":\"footercard_meta__legal__V_HOH\",\"children\":[[\"$\",\"div\",null,{\"className\":\"f-mono footercard_meta__copyright__GwI7p\",\"children\":\"© 2024 WalletConnect Foundation.\"}],[\"$\",\"div\",null,{\"className\":\"footercard_meta__links__okHUs\",\"children\":[[\"$\",\"a\",null,{\"href\":\"/privacy\",\"children\":\"Privacy Policy\"}],[\"$\",\"a\",null,{\"href\":\"/terms\",\"children\":\"Terms of Service\"}],[\"$\",\"a\",null,{\"href\":\"#\",\"className\":\"termly-display-preferences\",\"children\":\"Consent Preferences\"}]]}]]}]]}]]}]}]]}]\n21:I[2676,[\"922\",\"static/chunks/c15bf2b0-c5f2ab0c4ce668d5.js\",\"288\",\"static/chunks/288-c7d4ea2430eed8ef.js\",\"4\",\"static/chunks/4-d1d6bd2dfaf39f12.js\",\"322\",\"static/chunks/322-fbcc5440aad7f4ca.js\",\"185\",\"static/chunks/app/layout-58e679d846bb2c6f.js\"],\"default\"]\n1f:[\"$\",\"div\",null,{\"className\":\"navigation_navigation--text__1sgOf\",\"children\":[[\"$\",\"p\",null,{\"className\":\"f-body--small navigation_navigation__title__a6F92\",\"children\":\"Network\"}],[\"$\",\"div\",null,{\"className\":\"$undefined\",\"children\":[\"$\",\"$L21\",null,{\"items\":[{\"_key\":\"2d34e72c2e15\",\"highlight\":false,\"link\":{\"linkText\":\"Docs\",\"newTab\":true,\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null,\"externalUrl\":\"https://docs.walletconnect.network/\"}},{\"_key\":\"26f629a98c73\",\"highlight\":false,\"link\":{\"linkText\":\"Whitepaper\",\"newTab\":true,\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null,\"externalUrl\":\"https://whitepaper.walletconnect.network\"}},{\"_key\":\"c50b2e50354d\",\"highlight\":false,\"link\":{\"_key\":null,\"externalUrl\":null,\"linkText\":\"Foundation\",\"newTab\":false,\"internalLinkS"
+    ])
+  </script>
+  <script>
+    self.__next_f.push([1,
+      "lug\":\"foundation\",\"internalLinkTitle\":\"Foundation\"}},{\"_key\":\"7b84929ba6c35d9c722387c7013cfd7f\",\"highlight\":false,\"link\":{\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null,\"externalUrl\":\"https://vote.walletconnect.network/\",\"linkText\":\"Vote\",\"newTab\":false}},{\"_key\":\"4583ccd7752a9263c628f77c9cb8fd23\",\"highlight\":false,\"link\":{\"internalLinkTitle\":null,\"_key\":null,\"externalUrl\":\"https://governance.walletconnect.network/\",\"linkText\":\"Governance\",\"newTab\":false,\"internalLinkSlug\":null}}]}]}]]}]\n1e:[\"$\",\"div\",null,{\"className\":\"navigation_navigation--text__1sgOf\",\"children\":[[\"$\",\"p\",null,{\"className\":\"f-body--small navigation_navigation__title__a6F92\",\"children\":\"Company\"}],[\"$\",\"div\",null,{\"className\":\"$undefined\",\"children\":[\"$\",\"$L21\",null,{\"items\":[{\"_key\":\"17b04597199f\",\"highlight\":false,\"link\":{\"newTab\":false,\"internalLinkSlug\":\"foundation\",\"internalLinkTitle\":\"Foundation\",\"_key\":null,\"externalUrl\":null,\"linkText\":\"About\"}},{\"_key\":\"32ced8ea05f9\",\"highlight\":false,\"link\":{\"_key\":null,\"externalUrl\":null,\"linkText\":\"Blog\",\"newTab\":false,\"internalLinkSlug\":\"blog\",\"internalLinkTitle\":\"Blog\"}},{\"_key\":\"4c30b69c3385\",\"highlight\":false,\"link\":{\"externalUrl\":\"https://apply.workable.com/walletconnect-foundation/\",\"linkText\":\"Jobs\",\"newTab\":true,\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null}}]}]}]]}]\n20:[\"$\",\"div\",null,{\"className\":\"navigation_navigation--text__1sgOf\",\"children\":[[\"$\",\"p\",null,{\"className\":\"f-body--small navigation_navigation__title__a6F92\",\"children\":\"Connect\"}],[\"$\",\"div\",null,{\"className\":\"$undefined\",\"children\":[\"$\",\"$L21\",null,{\"items\":[{\"_key\":\"453efa38cb9a\",\"highlight\":false,\"link\":{\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null,\"externalUrl\":\"https://x.com/WalletConnect\",\"linkText\":\"X (Twitter)\",\"newTab\":true}},{\"_key\":\"6457334d310c\",\"highlight\":false,\"link\":{\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null,\"externalUrl\":\"https://linkedin.com/company/walletconnect-network\",\"linkText\":\"LinkedIn\",\"newTab\":true}},{\"_key\":\"8d84a6f586e5\",\"highlight\":false,\"link\":{\"_key\":null,\"externalUrl\":\"https://www.youtube.com/@walletconnectofficial\",\"linkText\":\"YouTube\",\"newTab\":true,\"internalLinkSlug\":null,\"internalLinkTitle\":null}},{\"_key\":\"1c42591de12a\",\"highlight\":false,\"link\":{\"_key\":null,\"externalUrl\":\"https://t.me/walletconnect\",\"linkText\":\"Telegram\",\"newTab\":true,\"internalLinkSlug\":null,\"internalLinkTitle\":null}},{\"_key\":\"33992b86340f\",\"highlight\":false,\"link\":{\"internalLinkSlug\":null,\"internalLinkTitle\":null,\"_key\":null,\"externalUrl\":\"https://warpcast.com/~/channel/walletconnect\",\"linkText\":\"Farcaster\",\"newTab\":true}}]}]}]]}]\n"
+    ])
+  </script>
+</body>
+</html>
